@@ -5,7 +5,6 @@ body{background-image: linear-gradient(0deg, #2e68e5, #678df8);
     min-height: 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    /*colocar width depois de acordo com os padding e border*/
 
 
 }
@@ -48,7 +47,7 @@ span{text-align: left;
     font-size: 10px;
     text-transform: uppercase;
     margin-top: 5px;
-    margin-bottom: 5px;    /*as margens n estejam funcionando*/
+    margin-bottom: 5px;  
 }
 
 .chk{border: solid 1px red;
