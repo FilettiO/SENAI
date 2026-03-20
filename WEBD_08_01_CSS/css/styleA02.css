@@ -1,0 +1,50 @@
+/*Arredondar bordas e adicionar padding*/
+/*Arredondar bordas  - pensar melhor e tentar com tr, analisando se ele equivale a linha ou coluna e tals*/
+
+
+body{background-image: linear-gradient(to right, #5d54cb, #9f52c4,#bb54c1);
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    color: #636363;  
+}
+
+table{border-radius: 20px;
+    background: white;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd){background: #f6f6f6;
+}
+
+td, th{height: 25px;
+    width: 180px;
+}
+
+th{
+    background: #372e49 !important;
+    color: white;
+    font-weight: normal;
+}
+
+th:first-child{border-radius: 10px 0 0 0;
+}
+
+th:last-child{border-radius: 0 10px 0 0;
+}
+
+.borda3{border-radius: 0 0 10px 0;
+
+}
+
+.borda4{border-radius: 0 0 0 10px;
+};
+
+

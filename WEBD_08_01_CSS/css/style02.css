@@ -1,0 +1,29 @@
+table{border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 600px;
+    text-align: center;
+}
+
+h4{color: #103779;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr{color:#4e5150
+}
+
+tr:nth-child(even){background: #f3d4cd;
+}
+
+tr:first-child{color: #fff;
+                background:#ff5500; 
+                text-align: left;
+                border-top: solid #103779; 
+
+}
+
+.c{color:#4e5150;
+    font-weight: bold;
+    text-align: left;
+}

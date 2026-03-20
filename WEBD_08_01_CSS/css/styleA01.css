@@ -1,0 +1,37 @@
+body{ background: #c2bdbd;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    min-width: 35px;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+}
+
+th{padding: 5px 3px 5px 3px;
+    float: center;
+    background: #ff6118;
+    color: white;
+}
+
+td{padding-left: 15px;
+    padding-right: 15px;
+    height: 25px;
+    width: 90px;
+    text-align: center;
+    border-radius: 3px;
+    background: #ededed; 
+}
+
+.hour{background: #dbdbdb;
+    color: #4e5966;
+
+}
+
+div{padding: 20px;
+    border-radius: 18px;
+    background: white;
+}

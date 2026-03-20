@@ -1,0 +1,85 @@
+body{background: #e6e6e6ee;
+        display: flex; /*Define a estrutura FLEX para a BOX*/
+        justify-content: center; /*Centraliza elementos horizontalmente*/
+        align-items: center; /*Centraliza elementos verticalmente*/
+        min-height: 100vh;
+}
+
+form{border: solid 1px 1px 0px 1px #ccc;
+        padding: 20px;
+        background: #f6f6f6;
+        border-style: solid; 
+        border-width: 1px 1px 0px 1px;
+        border-color: #ccc;
+}
+
+h3{font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        color: #016b75;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+}
+
+.subt{font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #016b75;
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+}
+
+.inp{font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: black;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+}
+
+.chk{border: solid 1px #ccc;
+        margin-bottom: 15px;
+}
+
+span{font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color:#038692;
+        text-align: left;
+}
+
+.bttn{font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: white;
+        background: #3e9db3;
+        text-align: center;
+        width: 100%;
+        border: 0;
+        padding: 6px;  /*Espaço interno do botão para todos os lados*/
+}
+
+.conta{font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color:#555;
+        background:#e1e9eb;
+        padding: 20px 10px;  /*Espaçamento interno para todos os lados*/
+        text-align: right;
+        margin: 0;
+        border-style: solid; 
+        border-width: 0px 1px 1px 1px;
+        border-color: #ccc;
+}
+
+.conta a{font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #3e9db3;
+        background: #fff;
+        padding: 5px;
+        border: solid 1px #ddeda8;
+        font-weight: bold;
+        text-decoration: none /*Remove o sublinhado do link*/
+}
+
+/*Verificar essa parte e ela no HTML*/
+.linha{background-image: linear-gradient(to right, yellow, red);
+
+}

@@ -1,0 +1,29 @@
+body{background:#B9D3EE;  
+}
+
+h4{color:#363636; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+h6{color:indianred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+.p1, .p2, .p3{
+    font-family:'Times New Roman', Times, serif;              
+    font-size: 17px;
+}
+                                    /*color:#CD7054*/
+.p1{color:palevioletred;
+}
+
+.p2{color:#8B4789;
+    text-align: center;
+}
+
+.p3{color:#6E8B3D;
+    text-align: right;
+}
