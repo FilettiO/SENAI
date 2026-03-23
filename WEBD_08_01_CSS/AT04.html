@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 04 - Formulário de Cadastro</title>
+    <style type="text/css">@import url("css/styleA04.css");</style>
 </head>
 <body>
-    <h4>Create an Account</h4>
-    <input type="text" name="nome" placeholder="Your Name"/>
-    <input type="text" name="email" placeholder="Your Email"/>
-    <input type="text" name="senha" placeholder="Password"/>
-    <input type="text" name="repeat" placeholder="Repeat your password"/>
-    <input type="checkbox" name="agree"/>
-    <p>I agree all statements in <a href="" target="">Terms of Service</a></p> 
-
+    <form>
+        <h4>Create an Account</h4>
+        <input type="text" name="nome" placeholder="Your Name" class="inp"/>
+        <input type="text" name="email" placeholder="Your Email" class="inp"/>
+        <input type="text" name="senha" placeholder="Password" class="inp"/>
+        <input type="text" name="repeat" placeholder="Repeat your password" class="inp"/>
+        <div class="terms">
+            <input type="checkbox" name="agree" class="chk"/>
+            <span>I agree all statements in <a href="" target="">Terms of Service</a></span> 
+        </div>    
+        <button type="submit">Register</button>
+        <h5>Have already an acount?</h5>
+        <a href="" target="">Login here</a>
+    </form>
 
 </body>
 </html>
