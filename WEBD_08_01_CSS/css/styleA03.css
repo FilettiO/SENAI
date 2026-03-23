@@ -1,4 +1,4 @@
-body{background-image: linear-gradient(0deg, #2e68e5, #678df8);
+body{background-image: linear-gradient(to bottom, #2e68e5 65%, #f6f6f6 35%);
     display: flex; 
     justify-content: center; 
     align-items: center; 
