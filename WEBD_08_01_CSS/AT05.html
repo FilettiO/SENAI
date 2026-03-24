@@ -1,0 +1,62 @@
+<!--Fazer uma div para colocar os placeholder embaixo depois-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5 - Formulário de Cadastro</title>
+    <style type="text/css">@import url("css/styleA05.css");</style>
+</head>
+<body>
+    <div class="formulario">
+        <div class="title">
+                <h3>Event registration form</h3>
+        </div>
+        <form>
+            <div class="inp_box">
+                <div class="subt1">Name</div>
+                <div class="answer1">
+                    <input type="text" name="nome" class="inp1"><input type="text" name="sobren" class="inp2">
+                </div>
+            </div>
+            <div class="inp_box">
+                <div class="subt2">Company</div>
+                <div class="answer2">
+                    <input type="text" name="empresa" class="inp">
+                </div>   
+            </div> 
+            <div class="inp_box">
+                <div class="subt2">Email</div>
+                <div class="answer2">
+                    <input type="email" name="email" class="inp">
+                </div>
+            </div>
+            <div class="inp_box">
+                <div class="subt3">Phone</div>
+                <div class="answer3">
+                    <input type="text" name="ddd" class="inp fone1"><input type="text" name="tel" class="inp fone2">
+                </div>
+            </div>
+            <div class="inp_box">
+                <div class="subt4">Subject</div>
+                <div class="answer4">
+                    <select>
+                        <option value="choose">Choose option</option>
+                        <option value="meet">Meeting</option>
+                        <option value="ann">Announcement</option>
+                    </select> 
+                </div>
+            </div>
+            <div class="customer">
+                <div>Are you an existing customer?</div>
+                <div>
+                    <input type="radio" name="client">Yes
+                    <input type="radio" name="client">No
+                </div>
+            </div>
+            <input type="submit" value="Register" class="btnn">
+        </form> 
+   </div>
+</body>
+</html>
