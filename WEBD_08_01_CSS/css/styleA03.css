@@ -12,6 +12,7 @@ form{background: white;
     padding: 8px 70px 60px 70px;
     border-radius: 30px;
     width: 450px;
+    box-shadow: 0 15px 0 0 #3660f2;
 }
 
 h2{text-align: center;
@@ -74,4 +75,3 @@ button{background: #2e68e5;
 .links a:last-child{
     text-align:right;
 }
-
