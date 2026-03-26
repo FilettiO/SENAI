@@ -4,6 +4,7 @@ body{background: linear-gradient(45deg, #3790ea,#735af3,#aa2af9);
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 form{background: white;
@@ -140,11 +141,20 @@ h3{margin: 0;
     color: white;
     border-radius: 5px;
     padding: 10px;
+    width: 170px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .customer{position: relative;
     float: left;
     text-align: left;
-    padding: 20px;
+    padding: 20px 33px;
 }
 
+.btnn_box{position: relative;
+    float: left;
+    text-align: center;
+    width: 770px;
+    padding-bottom: 60px;
+}
