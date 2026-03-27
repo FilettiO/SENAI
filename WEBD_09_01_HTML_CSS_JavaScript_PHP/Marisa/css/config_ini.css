@@ -1,0 +1,113 @@
+body{margin: 0 auto;
+}
+
+.top_cupom{position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.menu_info{position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background: #222222;
+}
+
+.menu_info_box{position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 45px;
+    background: #222222;
+}
+
+.menu_info_box_logo{position: relative;
+    margin: 0 auto;
+    float: left;
+    width: auto;
+    height: 20px;
+    background: white;
+    padding: 12.5px;     /*Imagem tem 20px de altura e a caixa em que ela se encontra tem 45px, então, para deixar no meio, fazemos padding (45-20)/2*/
+
+}
+
+.img_logo1{float: left;
+    height: 20px;
+}
+
+.menu_info_box_menu{position: relative;
+    float: left;
+    margin: 0 auto;
+    width: auto;
+    height: 45px;
+}
+
+.mn1{float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 15px 20px; /*(45-15px)/2*/
+    text-decoration: none;
+}
+
+.mn1:hover{color: #ff009c;
+}
+
+.mn1_card{float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 6px 20px;
+    text-decoration: none;
+    background: #ff009c;
+    border-radius: 15px;
+    margin: 9px 0;  /*(45-6-6)/2*/
+}
+
+.mn1_card:hover{
+    color: black;
+}
+
+.menu{position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 145px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.menu_box{position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 145px;
+    background-color: purple;
+}
+
+.menu_box1{position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 85px;
+    background-color: pink;
+}
+.menu_box2{position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 60px;
+    background-color: red;;
+}
+
+
+.frete{position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 39px;
+    text-align: center;
+    background: #222222;
+}
