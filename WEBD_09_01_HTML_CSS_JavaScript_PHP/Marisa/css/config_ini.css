@@ -102,6 +102,63 @@ body{margin: 0 auto;
     background-color: red;;
 }
 
+.menu_box1_logo, .menu_box1_pesq, .menu_box1_login, .menu_box1_car{position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 256px; /*1024px/4*/
+    height: 85px;
+}
+
+.menu_box1_login{
+    background: purple;
+}
+.menu_box1_car{
+    background: grey;
+}
+
+.img_logo2{float: left;
+    height: 45px;
+    padding: 20px 0; /*(85-45)/2*/
+}
+
+.inp_pes{font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding: 8px 5px;  
+    border: solid 1px #ff009c;
+    float: left;
+}
+
+.bt_pesq{
+    height: 34px;
+    width: 34px;
+    background: #ff009c;
+    border: solid 1px #ff009c;
+    margin: 0;
+    float: left;
+    background-image: url("../images/lupa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+}
+
+.menu_box1_pesq{padding: 26px 0;
+}
+
+.opc_menu{position: relative;
+    margin: 0 auto;
+    display:flex;
+    float:left;
+    justify-content: space-around;
+    align-items: center;
+    width: 102.4px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
 
 .frete{position: relative;
     float: left;
