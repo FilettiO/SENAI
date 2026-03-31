@@ -79,27 +79,24 @@ body{margin: 0 auto;
     width: 100%;
     height: 145px;
     text-align: center;
-    background-color: yellow;
+    background-color: white;
 }
 
 .menu_box{position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 145px;
-    background-color: purple;
 }
 
 .menu_box1{position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 85px;
-    background-color: pink;
 }
 .menu_box2{position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 60px;
-    background-color: red;;
 }
 
 .menu_box1_logo, .menu_box1_pesq, .menu_box1_login, .menu_box1_car{position: relative;
@@ -110,10 +107,10 @@ body{margin: 0 auto;
 }
 
 .menu_box1_login{
-    background: purple;
-}
-.menu_box1_car{
-    background: grey;
+    background-image: url("../images/user.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 45px 45px;
 }
 
 .img_logo2{float: left;
@@ -142,12 +139,57 @@ body{margin: 0 auto;
     background-size: 15px 15px;
 }
 
-.menu_box1_pesq{padding: 26px 0;
+.menu_box1_pesq form{padding: 26px 0;
 }
 
-.opc_menu{position: relative;
+.link_login{text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #8d8d8d;
+    float: left;
+    line-height: 85px;
+    margin-left: 50px;
+}
+
+.box_bag{position: relative;
     margin: 0 auto;
-    display:flex;
+    float: left;
+    width: 50px;
+    height: 85px;
+    background-image: url("../images/bag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+.box_bag span{float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+    color: white;
+    background-color: #ff009c;
+    padding: 2px 5px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.box_bag_text{position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 206px;
+    height: 30px;
+    padding: 27.5px 0; /*Dessa maneira os 'label' ficam alinhados*/
+    
+}
+
+.box_bag_text label{font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666;
+    display: block;
+    text-align: left;
+}
+
+.opc_menu{display: flex;
     float:left;
     justify-content: space-around;
     align-items: center;
@@ -155,10 +197,12 @@ body{margin: 0 auto;
     height: 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    box-sizing: border-box;
+    color: #3d3d3d;
+    text-decoration: none;
 }
 
-
+.opc_menu:hover{background-color: #ebebeb;
+}
 
 .frete{position: relative;
     float: left;
@@ -166,5 +210,21 @@ body{margin: 0 auto;
     width: 100%;
     height: 39px;
     text-align: center;
-    background: #222222;
+    background: #272526;
+}
+
+.banner{position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 847px;
+    background-image: url('../images/alerta_rosa.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu_box3{position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 75px;
 }
