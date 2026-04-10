@@ -1,0 +1,55 @@
+    <div class="top_cupom">
+        <img src="images/off.gif" alt="10% OFF"/>
+    </div>
+    <div class="menu_info">
+        <div class="menu_info_box">
+            <div class="menu_info_box_logo">
+                <img src="images/logo_marisa.svg" alt="Logo Marisa" class="img_logo1"/>
+            </div>
+            <div class="menu_info_box_menu">
+                <a href="" class="mn1">Meus Pedidos</a>
+                <a href="" class="mn1">Nossas Lojas</a>
+                <a href="" class="mn1">Atendimento</a>
+                <a href="" class="mn1_card">Cartões e Serviços</a>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu_box">
+            <div class="menu_box1">
+                <div class="menu_box1_logo">
+                    <img src="images/logo_marisa.svg" alt="Logo Marisa" class="img_logo2"/>
+                </div>
+                <div class="menu_box1_pesq">
+                    <form action="" method="">
+                        <input type="text" name="pesquisa" placeholder="O que você procura?" class="inp_pes"/>
+                        <input type="submit" value="" class="bt_pesq"/>
+                    </form>
+                </div>
+                <div class="menu_box1_login">
+                    <a href="login.php" class="link_login">Entre ou cadastre-se</a>
+                </div>
+                <div class="menu_box1_car">
+                    <div class="box_bag">
+                        <span>0</span>
+                    </div>
+                    <div class="box_bag_text">
+                        <label>Minhas compras</label>
+                        <label>R$0,00 (Subtotal)</label>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_box2">
+                <a href="" class="opc_menu">Feminino</a>                 
+                <a href="" class="opc_menu">Infantil</a>            
+                <a href="" class="opc_menu">Lingerie</a>           
+                <a href="" class="opc_menu">Calçados</a>           
+                <a href="" class="opc_menu">Masculino</a>          
+                <a href="" class="opc_menu">Jeans</a>           
+                <a href="" class="opc_menu">Plus Size</a>                
+                <a href="" class="opc_menu">Acessórios</a>
+                <a href="" class="opc_menu">Casa</a>
+                <a href="" class="opc_menu">Oferta</a>
+            </div>
+        </div>
+    </div>

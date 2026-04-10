@@ -1,0 +1,103 @@
+.login{display: flex;
+    position: relative;
+    float: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+form{width: 400px;
+}
+
+h3{font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    font-weight: normal;
+}
+
+p{display: flex;
+    position: relative;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 10px auto;
+    color: #424242;
+    width: 398px;  
+}
+
+input{font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+}
+
+input::placeholder{font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #9999a6;
+    padding: 0 0 0 5px;
+}
+
+.inp{display: flex;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    text-align: left;
+    border: solid 1px #bdbdbd;
+    border-radius: 5px;
+    width: 392px;
+    height: 30px;
+}
+
+.inp:hover{border-color: #ec008c;
+}
+
+.forgot{display: flex;
+    position: relative;
+    float: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: #ec008c;
+    text-decoration: none;
+    width: 398px;
+    padding: 20px 0 35px 0;
+}
+
+.btnn{display: flex;
+    position: relative;
+    float: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #acabab;
+    border: solid 1px #acabab;
+    border-radius: 5px;
+    height: 45px;
+    width: 398px;
+    cursor: pointer;
+}
+
+b{display: flex;
+    position: relative;
+    float: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+    font-weight: normal;
+    padding: 20px 0 40px 0;
+}
+
+b a{font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ec008c;
+}
