@@ -1,299 +1,347 @@
-body{margin: 0 auto;
+body{
+    margin: 0 auto;
 }
 
-.top_cupom{position: relative;
-    float: left;
+.top_cupom{
+    position: relative;
     margin: 0 auto;
+    float: left;
     width: 100%;
     height: 40px;
     text-align: center;
-    background-color: #efefef;
+    background: #efefef;
 }
 
-.menu_info{position: relative;
-    float: left;
+.menu_info{
+    position: relative;
     margin: 0 auto;
+    float: left;
     width: 100%;
     height: 45px;
     text-align: center;
-    background: #222222;
+    background: #000000;
 }
 
-.menu_info_box{position: relative;
+.menu_info_box{
+    position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 45px;
-    background: #222222;
+    /*background: yellow;*/
 }
 
-.menu_info_box_logo{position: relative;
+.menu_info_box_logo{
+    position: relative;
     margin: 0 auto;
     float: left;
     width: auto;
     height: 20px;
-    background: white;
-    padding: 12.5px;     /*Imagem tem 20px de altura e a caixa em que ela se encontra tem 45px, então, para deixar no meio, fazemos padding (45-20)/2*/
-
+    background: #fff;
+    padding: 12.5px;
 }
 
-.img_logo1{float: left;
+.img_logo1{
+    float: left;
     height: 20px;
 }
 
-.menu_info_box_menu{position: relative;
-    float: left;
+.menu_info_box_menu{
+    position: relative;
     margin: 0 auto;
+    float: left;
     width: auto;
     height: 45px;
 }
 
-.mn1{float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+.mn1{
+    float: left;
+    font-family: arial;
+    font-size: 13px;
     color: #fff;
-    padding: 15px 20px; /*(45-15px)/2*/
+    padding: 16px 20px;
     text-decoration: none;
 }
 
-.mn1:hover{color: #ff009c;
+.mn1:hover{
+    color: #ff009c;
 }
 
-.mn1_card{float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+.mn1_card{
+    float: left;
+    font-family: arial;
+    font-size: 13px;
     color: #fff;
-    padding: 6px 20px;
+    padding: 8px 20px;
     text-decoration: none;
     background: #ff009c;
-    border-radius: 15px;
-    margin: 9px 0;  /*(45-6-6)/2*/
+    border-radius: 20px;
+    margin: 8px 0px;
 }
 
 .mn1_card:hover{
-    color: black;
+    color: #000;
 }
 
-.menu{position: relative;
-    float: left;
+.menu{
+    position: relative;
     margin: 0 auto;
+    float: left;
     width: 100%;
     height: 145px;
     text-align: center;
-    background-color: white;
+    background: #fff;
 }
 
-.menu_box{position: relative;
+.menu_box{
+    position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 145px;
 }
 
-.menu_box1{position: relative;
+.menu_box_1{
+    position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 85px;
 }
-.menu_box2{position: relative;
+
+.menu_box_2{
+    position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 60px;
 }
 
-.menu_box1_logo, .menu_box1_pesq, .menu_box1_login, .menu_box1_car{position: relative;
+.menu_box_1_logo, .menu_box_1_pesq, .menu_box_1_entre, .menu_box_1_car{
+    position: relative;
     margin: 0 auto;
     float: left;
-    width: 256px; /*1024px/4*/
+    width: 256px;
     height: 85px;
 }
 
-.menu_box1_login{
-    background-image: url("../images/user.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 45px 45px;
+.menu_box_1_logo{
+    background: white;
 }
 
-.img_logo2{float: left;
+.menu_box_1_pesq{
+    background: white;
+}
+
+.menu_box_1_entre{
+    background-image: url("../images/avatar.png");
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+}
+
+.img_logo2{
+    float: left;
     height: 45px;
-    padding: 20px 0; /*(85-45)/2*/
+    padding: 20px 0px;
 }
 
-.inp_pes{font-family: Arial, Helvetica, sans-serif;
+.inp_pesq{
+    font-family: arial;
     font-size: 14px;
     color: #333;
-    padding: 8px 5px;  
+    padding: 8px 5px;
     border: solid 1px #ff009c;
+    outline: none;
     float: left;
 }
 
-.bt_pesq{
+.btpesq{
     height: 34px;
-    width: 34px;
-    background: #ff009c;
-    border: solid 1px #ff009c;
+    width: 30px;
+    background-color: #ff009c;
     margin: 0;
     float: left;
+    border: solid 1px #ff009c;
     background-image: url("../images/lupa.png");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center; 
+    background-repeat: no-repeat; 
     background-size: 15px 15px;
 }
 
-.menu_box1_pesq form{padding: 26px 0;
+.menu_box_1_pesq form{
+    padding: 26px 0px;
 }
 
-.link_login{text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #8d8d8d;
+.link_entre{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color: #ccc;
     float: left;
     line-height: 85px;
     margin-left: 50px;
 }
 
-.box_bag{position: relative;
+.box_car{
+    position: relative;
     margin: 0 auto;
     float: left;
     width: 50px;
     height: 85px;
-    background-image: url("../images/bag.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
+    background-image: url("../images/carrinho.png");
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
 }
 
-.box_bag span{float: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 13px;
-    color: white;
-    background-color: #ff009c;
-    padding: 2px 5px;
+.box_car span{
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+    background: #ff009c;
+    padding: 1px 5px;
     border-radius: 20px;
     margin-top: 45px;
     margin-left: 30px;
 }
 
-.box_bag_text{position: relative;
+.box_texto_car{
+    position: relative;
     margin: 0 auto;
     float: left;
     width: 206px;
     height: 30px;
-    padding: 27.5px 0; /*Dessa maneira os 'label' ficam alinhados*/
-    
+    padding: 27.5px 0px;
 }
 
-.box_bag_text label{font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+.box_texto_car label{
+    font-family: arial;
+    font-size: 15px;
     color: #666;
     display: block;
-    text-align: left;
 }
 
-.opc_menu{display: flex;
-    float:left;
-    justify-content: space-around;
-    align-items: center;
-    width: 102.4px;
-    height: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: #3d3d3d;
+.mn2{
+    font-family: arial;
+    font-family: 13px;
+    color: #444;
     text-decoration: none;
+    padding: 10px 20px;
+    line-height: 60px;
 }
 
-.opc_menu:hover{background-color: #ebebeb;
-}
-
-.frete{position: relative;
-    float: left;
+.frete{
+    position: relative;
     margin: 0 auto;
+    float: left;
     width: 100%;
     height: 39px;
     text-align: center;
-    background: #272526;
+    background-color: #272526;
+    background-image: url("../images/frete.gif");
 }
 
-.banner{position: relative;
-    float: left;
+.banner{
+    position: relative;
     margin: 0 auto;
+    float: left;
     width: 100%;
     height: 847px;
-    background-image: url('../images/alerta_rosa.gif');
-    background-position: center;
+    background-image: url("../images/banner1.gif");
+    background-position: center center; 
     background-repeat: no-repeat;
 }
 
-.opc_cat{display: flex;
+.navopc{
     position: relative;
-    float: center;
     margin: 0 auto;
-    width: 1024px;
-    height: 75px;
-    background: black;
-    align-items: center;
-}
-
-.fretebr, .pgm, .troca, .juros{display: flex;
-    float:left;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background: rgb(196, 113, 196);
-    height: 29px;
-    width: 256px;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 29px 29px;
-}
-
-.fretebr{background-image: url('../images/frete_brasil.png');
-}
-
-.pgm{background-image: url('../images/pgm.webp');
-}
-
-.troca{background-image: url('../images/troca.png');
-}
-
-.juros{background-image: url('../images/juros.png');
-}
-
-h4{font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    display: flex;
-    position: relative;
-    float: center;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-}
-
-.navcateg_box{display: flex;
-    position: relative;
     float: left;
-    margin: 0 auto;
-    width: 131px;
-    justify-content: space-around;
+    width: 100%;
+    height: 100px;
 }
 
-.navcateg_box a{text-align: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #838181;
-    justify-content: space-around;
-}
-
-.navcateg{display: flex;
+.navopc_box{
     position: relative;
     margin: 0 auto;
-    justify-content: space-around;
-    align-items: center;
-    width: 1179px;
+    float: left;
+    width: 25%;
+    height: 100px;
+    text-align: center;
 }
+
+.navopc_mn1, .navopc_mn2, .navopc_mn3, .navopc_mn4{
+    line-height: 100px;
+    padding: 20px 40px; 
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: 30px 30px;
+}
+
+.navopc_mn1{
+    background-image: url("../images/frete.png");
+}
+
+.navopc_mn2{
+    background-image: url("../images/fat.jpg");
+}
+
+.navopc_mn3{
+    background-image: url("../images/troca.png");
+}
+
+.navopc_mn4{
+    background-image: url("../images/card.png");
+}
+
+.navopc_box a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navopc_box a:hover{
+    color: #ff009c;
+}
+
+.navcateg{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 230px;
+}
+
+.navcateg h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navcateg_box{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 11.1%;
+    height: auto;
+    background: #fff;
+    text-align: center;
+}
+
+.navcateg_box a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navcateg_box label{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666;
+}
+
 
 .rodape{
     position: relative;
@@ -512,6 +560,7 @@ h4{font-family: Arial, Helvetica, sans-serif;
     width: 49%;
     margin-left: 2%;
 }
+
 
 .sessao_bn1{
     position: relative;
