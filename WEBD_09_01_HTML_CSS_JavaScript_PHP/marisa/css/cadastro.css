@@ -67,7 +67,7 @@
     display: block;
 }
 
-.inp_cad1, .inp_cad2, .inp_cad3, .inp_cad4, .inp_cad5{
+.inp_cad1, .inp_cad2, .inp_cad3, .inp_cad4, .inp_cad5, .inp_cad6, .inp_cad7{
     font-size: 13px;
     font-weight: bold;
     display: block;
@@ -199,7 +199,7 @@
 }
 
 .cadastro_box3 a{
-    color:#ff009c;
+    color: #ff009c;
 }
 
 .box_bt_mostrar{
@@ -234,4 +234,16 @@
 .inp_cad7{
     width: 310px;
     padding: 10px 10px;
+}
+
+.form1_1, .termo_cnpj{display:none;
+}
+
+.inp_cad1:focus, .inp_cad2:focus, .inp_cad3:focus, .inp_cad4:focus, .inp_cad5:focus, .inp_cad6:focus ,.inp_cad7:focus{
+    border: solid 1px #ff009c;
+}
+
+input::placeholder{
+    color: #999c9f;
+    font-family: Arial, Helvetica, sans-serif;
 }
