@@ -227,9 +227,8 @@ body{margin: 0 auto;
     position: relative;
     float: center;
     margin: 0 auto;
-    width: 1024px;
+    width: 1179px;
     height: 75px;
-    background: black;
     align-items: center;
 }
 
@@ -239,11 +238,11 @@ body{margin: 0 auto;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    color: #444444;
     text-decoration: none;
     text-transform: uppercase;
-    background: rgb(196, 113, 196);
     height: 29px;
-    width: 256px;
+    width: 289.67px;
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 29px 29px;
@@ -256,6 +255,7 @@ body{margin: 0 auto;
 }
 
 .troca{background-image: url('../images/troca.png');
+    width: 310px;
 }
 
 .juros{background-image: url('../images/juros.png');

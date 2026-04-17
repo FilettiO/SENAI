@@ -11,6 +11,7 @@
 <!--Bibliotecas e Frameworks vêm primeiro / Estilo em cascata-->
     <script type="text/javascript" src="js/jquery_4_0.js"></script>
     <script type="text/javascript" src="js/cadastro.js"></script>
+    <script type="text/javascript" src="js/mascara.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
 
@@ -41,11 +42,11 @@
                     <div class="box_form">
                         <div class="box_form_nasc">
                             <b>Data de nascimento*</b>
-                            <input type="text" name="dtnasc" placeholder="00/00/0000" class="inp_cad2" id="nasc_id" />
+                            <input type="text" name="dtnasc" placeholder="00/00/0000" maxlength="10" class="inp_cad2" id="nasc_id" onkeyup="mascaraData(this.id);"/>
                         </div>
                         <div class="box_form_cpf">
                             <b>CPF*</b>
-                            <input type="text" name="login" placeholder="000.000.000-00" class="inp_cad3" id="cpf_id"/>
+                            <input type="text" name="login" placeholder="000.000.000-00" maxlength="14" class="inp_cad3" id="cpf_id" onkeyup="mascaraCpf(this.id);"/>
                         </div>
                     </div>
 
@@ -59,15 +60,15 @@
                     <div class="box_form">
                         <div class="box_form_ddd1">
                             <b>DDD*</b>
-                            <input type="text" name="ddd1" placeholder="(00)" class="inp_cad4" id="ddd_cel_id"/>
+                            <input type="text" name="ddd1" placeholder="(00)" class="inp_cad4" maxlength="2"  id="ddd_cel_id" onkeyup="mascaraDdd(this.id);"/>
                         </div>
                         <div class="box_form_celular">
                             <b>Celular*</b>
-                            <input type="text" name="celular" placeholder="0000 - 0000" class="inp_cad5" id="cel_id"/>
+                            <input type="text" name="celular" placeholder="00000 - 0000" class="inp_cad5" maxlength="9" id="cel_id" onkeyup="mascaraCel(this.id);"/>
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD*</b>
-                            <input type="text" name="ddd2" placeholder="(00)" class="inp_cad4" id="ddd_tel_id"/>
+                            <input type="text" name="ddd2" placeholder="(00)" class="inp_cad4" maxlength="2" id="ddd_tel_id" onkeyup="mascaraDdd(this.id);"/>
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone*</b>
@@ -188,6 +189,14 @@
                     <span><input type="checkbox" name="pcelular"/>Por Celular</span>
                     <span class="bt_finaliza" onclick="enviarDadosCnpj();">Finalizar Cadastro</span>
 
+                </div>
+            </div>
+            <div class="cadastro_box4">
+                <h4>Política de Privacidade / Política de Privacidade Geral</h4>
+                <p class="priv">Privacidade e Segurança</p></br>
+                <p>Última atualização em 13 de abril de 2021. </br>A presente Política de Privacidade tem por finalidade demonstrar o compromisso das Lojas Marisa S.A (“Marisa”) com a privacidade e a proteção dos dados pessoais coletados de seus usuários, estabelecendo regras sobre a obtenção, uso e armazenamento dos dados, dentro do escopo dos serviços e funcionalidades do seu Portal (www.marisa.com.br), além do registro das atividades de acordo com as leis em vigor, com transparência e clareza junto ao usuário e ao mercado em geral. Como condição para acesso e uso das funcionalidades exclusivas do Portal, o usuário declara que ao aceitá-las fez a leitura completa e atenta da presente Política de Privacidade, estando plenamente ciente, conferindo assim sua livre e expressa concordância com as regras aqui estipuladas.</p>
+                <div>
+                    <b>Para saber mais,<a href="">Clique aqui</a></b>
                 </div>
             </div>
         </div>
