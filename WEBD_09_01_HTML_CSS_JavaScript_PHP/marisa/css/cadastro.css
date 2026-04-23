@@ -247,23 +247,26 @@ input::placeholder{color: #999c9f;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h4{font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-transform: none;
-    font-weight: bold;
-    position: relative;
-    float: left;
-    width: 1024px;
-  
-}
-
-p{font-family: Arial, Helvetica, sans-serif;
+p, b{font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     position: relative;
     float: left;
     width: 1024px;
+    margin: 0 auto; 
 }
 
-.priv{margin: 0 auto;
-
+.title{font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 1024px;
+    margin: 0 auto; 
 }
+
+.priv{padding-top: 20px;
+}
+
+a{color: #ff009c;
+    text-decoration: none;
+    margin: 0 auto;
+}
+

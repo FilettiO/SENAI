@@ -191,12 +191,12 @@
 
                 </div>
             </div>
-            <div class="cadastro_box4">
-                <h4>Política de Privacidade / Política de Privacidade Geral</h4>
-                <p class="priv">Privacidade e Segurança</p></br>
-                <p>Última atualização em 13 de abril de 2021. </br>A presente Política de Privacidade tem por finalidade demonstrar o compromisso das Lojas Marisa S.A (“Marisa”) com a privacidade e a proteção dos dados pessoais coletados de seus usuários, estabelecendo regras sobre a obtenção, uso e armazenamento dos dados, dentro do escopo dos serviços e funcionalidades do seu Portal (www.marisa.com.br), além do registro das atividades de acordo com as leis em vigor, com transparência e clareza junto ao usuário e ao mercado em geral. Como condição para acesso e uso das funcionalidades exclusivas do Portal, o usuário declara que ao aceitá-las fez a leitura completa e atenta da presente Política de Privacidade, estando plenamente ciente, conferindo assim sua livre e expressa concordância com as regras aqui estipuladas.</p>
+            <div class="cadastro_box4">                
+                <p class="title">Política de Privacidade / Política de Privacidade Geral</p>
+                <p>Privacidade e Segurança</p></br>              
+                <p class="priv">Última atualização em 13 de abril de 2021. </br>A presente Política de Privacidade tem por finalidade demonstrar o compromisso das Lojas Marisa S.A (“Marisa”) com a privacidade e a proteção dos dados pessoais coletados de seus usuários, estabelecendo regras sobre a obtenção, uso e armazenamento dos dados, dentro do escopo dos serviços e funcionalidades do seu Portal (www.marisa.com.br), além do registro das atividades de acordo com as leis em vigor, com transparência e clareza junto ao usuário e ao mercado em geral. Como condição para acesso e uso das funcionalidades exclusivas do Portal, o usuário declara que ao aceitá-las fez a leitura completa e atenta da presente Política de Privacidade, estando plenamente ciente, conferindo assim sua livre e expressa concordância com as regras aqui estipuladas.</p>
                 <div>
-                    <b>Para saber mais,<a href="">Clique aqui</a></b>
+                    <b class="priv">Para saber mais,<a href="">Clique Aqui</a></b>
                 </div>
             </div>
         </div>
