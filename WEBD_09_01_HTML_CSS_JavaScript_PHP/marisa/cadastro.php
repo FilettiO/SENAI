@@ -1,3 +1,7 @@
+<?php 
+    require_once("conexao/conexao.php");
+    require_once("classes/class_estados.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,9 +100,16 @@
 
                     <div class="box_form">
                         <div class="box_form_uf">
-                            <b>UF*</b>
+                            <b>UF*</b>                            
                             <select class="inp_cad6" id="uf_id">
-                                <option value="SP">São Paulo</option>
+                                <?php
+                                    $consultaUf = new selecionaEstados();
+                                    while($retornaUf = mysqli_fetch_array($consultaUf->executa)){
+                                ?>
+                                <option value="<?php echo $retornaUf['sigla'];?>"><?php echo $retornaUf['nome'];?></option>
+                                <?php
+                                    }
+                                ?>
                             </select>
                         </div>
                         <div class="box_form_trib">
@@ -177,10 +188,20 @@
             <div class="cadastro_box3">
                 <div class="termo_cpf">
                     <input type="checkbox" class="inp_ck_termos" />
-                    <label> Li, compreendi e concordo com as <a href="">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
-                    <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>
+                    <label> Li, compreendi e concordo com as <a id="cond_id" onclick="showCond(this.id);">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
+                    <div class="cadastro_box3_1">
+                        <div class="close"> 
+                            <img src="images/x.png" alt="Fechar Condições" class="x" id="close" onclick="hideCond(this.id);"/>
+                        </div>
+                        <p class="title">Política de Privacidade / Política de Privacidade Geral</p>
+                        <p>Privacidade e Segurança</p></br>              
+                        <p class="priv">Última atualização em 13 de abril de 2021. </br>A presente Política de Privacidade tem por finalidade demonstrar o compromisso das Lojas Marisa S.A (“Marisa”) com a privacidade e a proteção dos dados pessoais coletados de seus usuários, estabelecendo regras sobre a obtenção, uso e armazenamento dos dados, dentro do escopo dos serviços e funcionalidades do seu Portal (www.marisa.com.br), além do registro das atividades de acordo com as leis em vigor, com transparência e clareza junto ao usuário e ao mercado em geral. Como condição para acesso e uso das funcionalidades exclusivas do Portal, o usuário declara que ao aceitá-las fez a leitura completa e atenta da presente Política de Privacidade, estando plenamente ciente, conferindo assim sua livre e expressa concordância com as regras aqui estipuladas.</p>
+                        <div>
+                            <b class="priv">Para saber mais, <a href="">Clique Aqui</a></b>
+                        </div>
+                    </div>
+                    <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>                    
                 </div>
-
                 <div class="termo_cnpj">
                     <h2>Ofertas</h2>
                     <hr />
@@ -191,14 +212,7 @@
 
                 </div>
             </div>
-            <div class="cadastro_box4">                
-                <p class="title">Política de Privacidade / Política de Privacidade Geral</p>
-                <p>Privacidade e Segurança</p></br>              
-                <p class="priv">Última atualização em 13 de abril de 2021. </br>A presente Política de Privacidade tem por finalidade demonstrar o compromisso das Lojas Marisa S.A (“Marisa”) com a privacidade e a proteção dos dados pessoais coletados de seus usuários, estabelecendo regras sobre a obtenção, uso e armazenamento dos dados, dentro do escopo dos serviços e funcionalidades do seu Portal (www.marisa.com.br), além do registro das atividades de acordo com as leis em vigor, com transparência e clareza junto ao usuário e ao mercado em geral. Como condição para acesso e uso das funcionalidades exclusivas do Portal, o usuário declara que ao aceitá-las fez a leitura completa e atenta da presente Política de Privacidade, estando plenamente ciente, conferindo assim sua livre e expressa concordância com as regras aqui estipuladas.</p>
-                <div>
-                    <b class="priv">Para saber mais,<a href="">Clique Aqui</a></b>
-                </div>
-            </div>
+            
         </div>
     </div>
     <!-- Fim - Cadastro -->
