@@ -6,10 +6,32 @@ function mostraPj(id){
 
 function mostraPf(id){
     $(".form1_1, .termo_cnpj").hide();
-    $(" .form1, .termo_cpf").show();
+    $(".form1, .termo_cpf").show();
+}
+
+function showCond(id){
+    $(".cadastro_box3_1").show();
+}
+
+function hideCond(id){
+    $(".cadastro_box3_1").hide();
 }
 
 function enviarDadosCpf(){
+
+    /*
+    if(validarData("nasc_id")){
+        alert("Data válida");
+    }else{
+        alert("Data com erro!");
+    }*/
+
+    if(validarCPF("cpf_id")){
+        alert("CPF válido")
+    }else{
+        alert("CPF com erro!");
+    }
+
     var nome = document.getElementById("nome_id").value;
     //document - acessa o doc html inteiro; value - vai encontrar o elemento pelo id; 
     var nasc = document.getElementById("nasc_id").value;
@@ -28,6 +50,13 @@ function enviarDadosCpf(){
 }
 
 function enviarDadosCnpj(){
+
+    if(validarCNPJ("cnpj_id")){
+        alert("CNPJ válido");
+    }else{
+        alert("CNPJ com erro!")
+    }
+
     var razao = document.getElementById("razao_id").value;
     var resp = document.getElementById("resp_id").value;
     var cnpj = document.getElementById("cnpj_id").value;
@@ -42,4 +71,16 @@ function enviarDadosCnpj(){
     var token = document.getElementById("token_id").value;
     var senha = document.getElementById("senha_id").value;
     var conf = document.getElementById("conf_id").value;
+}
+
+function mostraSenha1(id){
+    $("#" + id).hide();
+    $("#hide_pass1" + id).show();
+    document.getElementById("senha_id").type = "text";
+}
+
+function ocultaSenha1(id){
+    $("#" + id).hide();
+    $("#show_pass1" + id).show();
+    document.getElementById("senha_id").type = "password";
 }

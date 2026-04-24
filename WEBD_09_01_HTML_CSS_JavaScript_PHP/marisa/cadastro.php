@@ -16,6 +16,7 @@
     <script type="text/javascript" src="js/jquery_4_0.js"></script>
     <script type="text/javascript" src="js/cadastro.js"></script>
     <script type="text/javascript" src="js/mascara.js"></script>
+    <script type="text/javascript" src="js/validacao.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
 
@@ -95,7 +96,7 @@
 
                     <div class="box_form">
                         <b>CNPJ*</b>
-                        <input type="text" name="cnpj" placeholder="" class="inp_cad1" id="cnpj_id"/>
+                        <input type="text" name="cnpj" placeholder="" class="inp_cad1" id="cnpj_id" maxlength="14" onkeyup="mascaraCnpj(this.id);"/>
                     </div>
 
                     <div class="box_form">
@@ -130,19 +131,19 @@
                     <div class="box_form">
                         <div class="box_form_ddd1">
                             <b>DDD*</b>
-                            <input type="text" name="ddd1_1" placeholder="(00)" class="inp_cad4" id="ddd_cel_id" />
+                            <input type="text" name="ddd1_1" placeholder="(00)" class="inp_cad4" maxlength="2" id="ddd_cel_id" />
                         </div>
                         <div class="box_form_celular">
                             <b>Celular*</b>
-                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" id="cel_id" />
+                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" maxlength="9" id="cel_id" />
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD*</b>
-                            <input type="text" name="ddd2_1" placeholder="(00)" class="inp_cad4" id="ddd_tel_id"/>
+                            <input type="text" name="ddd2_1" placeholder="(00)" class="inp_cad4" maxlength="2" id="ddd_tel_id"/>
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone*</b>
-                            <input type="text" name="tel1" placeholder="0000 - 0000" class="inp_cad5" id="tel_id" />
+                            <input type="text" name="tel1" placeholder="0000 - 0000" class="inp_cad5" maxlength="9" id="tel_id" />
                         </div>
                     </div>
                     
@@ -168,17 +169,18 @@
 
                     <div class="box_form">
                         <b>Senha*</b>
-                        <input type="text" name="senha" placeholder="Insira a senha" class="inp_cad1" id="senha_id" />
+                        <input type="password" name="senha" placeholder="Insira a senha" class="inp_cad1" id="senha_id" />
                         <div class="box_bt_mostrar">
-                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" id="show_pass1" onclick="mostraSenha1(this.id);"/>
+                            <img src="images/eye-open.png" alt="Oculta Senha" class="bt_mostra_senha" id="hide_pass1" onclick="ocultaSenha1(this.id);"/>
                         </div>
                     </div>
 
                     <div class="box_form">
                         <b>Confirmar Senha*</b>
-                        <input type="text" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" id="conf_id" />
+                        <input type="password" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" id="conf_id" />
                         <div class="box_bt_mostrar">
-                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" />
+                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha"/>
                         </div>
                     </div>
                     
