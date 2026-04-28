@@ -65,12 +65,26 @@ function mascaraCel(id){
     }
 }
 
+function mascaraTel(id){
+    let campo = document.getElementById(id);
+    let valor = campo.value.replace(/\D/g, "");  
+    if(valor.length > 8){
+        valor = valor.slice(0, 8);  
+    }
+
+    if(valor.length >=5){
+        campo.value = valor.replace(/^(\d{4})(\d{1,3})$/, "$1-$2")
+    }else{
+        campo.value = valor
+    }
+}
+
 function mascaraCnpj(id){
     let campo = document.getElementById(id);
     let valor = campo.value.replace(/\D/g, "");
 
     if(valor.length > 14){
-        valor = valor.slice(0, 14);        //00.000.000/0000-00
+        valor = valor.slice(0, 14);
     }
 
     if(valor.length >=13){

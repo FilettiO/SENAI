@@ -1,3 +1,12 @@
+function validarNomePf(id){
+    let nome = document.getElementById(id).value;
+    if(nome.length >= 4){
+        return true;
+    }else{
+        return false;
+    }
+}
+
 function validarData(id){
     let data = document.getElementById(id).value;
     // Verifica o formato dd/mm/yyyy com regex
@@ -102,4 +111,99 @@ function validarCNPJ(id) {
     if (digito2 !== parseInt(cnpj.charAt(13))) return false;
 
     return true;
+}
+
+function validarEmail(id) {
+  let email = document.getElementById(id).value;
+  const regex = /^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
+  return regex.test(email);
+}
+
+function validarGenero(){
+    if(document.getElementById("masc_id").checked == false && document.getElementById("fem_id").checked == false && document.getElementById("ninf_id").checked == false){
+        return false;
+    }else{
+        return true;
+    }
+}
+
+function validarDdd1(id){
+    let ddd = document.getElementById(id).value;
+    if(ddd.length == 4){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function validarCel(id){
+    let cel = document.getElementById(id).value;
+    if(cel.length == 10){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function validarDdd2(id){
+    let ddd2 = document.getElementById(id).value;
+    if(ddd2.length == 4){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function validarTel(id){
+    let tel = document.getElementById(id).value;
+    if(tel.length == 9){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function validarToken(id){
+    let token = document.getElementById(id).value;
+    if(token.length >= 9){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function validarSenha(id){
+    let senha = document.getElementById(id).value;
+    if(senha.length >=8){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function validarSenha2(id){
+    let senha2 = document.getElementById(id).value;
+    if(senha2.length >=8){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function compararSenhas(id){
+    let senha1 = document.getElementById("senha_id").value;
+    let senha2 = document.getElementById("conf_id").value;
+    if(senha1 === senha2){   //os 3 "=" significam que as senhas devem ser exatamente iguais
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function validarTermoPf(id){
+    if(document.getElementById().checked == true){
+        return true;
+    }else{
+        return false;
+    }
 }

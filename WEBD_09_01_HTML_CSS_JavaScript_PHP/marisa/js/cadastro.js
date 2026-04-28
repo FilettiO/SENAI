@@ -18,22 +18,8 @@ function hideCond(id){
 }
 
 function enviarDadosCpf(){
-
-    /*
-    if(validarData("nasc_id")){
-        alert("Data válida");
-    }else{
-        alert("Data com erro!");
-    }*/
-
-    if(validarCPF("cpf_id")){
-        alert("CPF válido")
-    }else{
-        alert("CPF com erro!");
-    }
-
-    var nome = document.getElementById("nome_id").value;
-    //document - acessa o doc html inteiro; value - vai encontrar o elemento pelo id; 
+    if(validarNomePf("nome_id") && validarData("nasc_id") && validarCPF("cpf_id") && validarGenero() && validarDdd1("ddd_cel_id") && validarCel("cel_id") && validarDdd2("ddd_tel_id") && validarTel("tel_id") && validarEmail("email_id") && validarToken("token_id") && validarSenha("senha_id") && validarSenha2("conf_id") && compararSenhas("compararSenhas(id)") && validarTermoPf("chk_id")
+){  var nome = document.getElementById("nome_id").value; 
     var nasc = document.getElementById("nasc_id").value;
     var cpf = document.getElementById("cpf_id").value;
     var masc = document.getElementById("masc_id").value;
@@ -47,16 +33,12 @@ function enviarDadosCpf(){
     var token = document.getElementById("token_id").value;
     var senha = document.getElementById("senha_id").value;
     var conf = document.getElementById("conf_id").value;
+    var chk = document.getElementById("chk_id").value;
+    //document - acessa o doc html inteiro; value - vai encontrar o elemento pelo id;
+    }    
 }
 
 function enviarDadosCnpj(){
-
-    if(validarCNPJ("cnpj_id")){
-        alert("CNPJ válido");
-    }else{
-        alert("CNPJ com erro!")
-    }
-
     var razao = document.getElementById("razao_id").value;
     var resp = document.getElementById("resp_id").value;
     var cnpj = document.getElementById("cnpj_id").value;
@@ -75,12 +57,27 @@ function enviarDadosCnpj(){
 
 function mostraSenha1(id){
     $("#" + id).hide();
-    $("#hide_pass1" + id).show();
+    $("#hide_pass1").show();
     document.getElementById("senha_id").type = "text";
 }
 
 function ocultaSenha1(id){
     $("#" + id).hide();
-    $("#show_pass1" + id).show();
+    $("#show_pass1").show();
     document.getElementById("senha_id").type = "password";
 }
+
+function mostraSenha2(id){
+    $("#" + id).hide();
+    $("#hide_pass2").show();
+    document.getElementById("conf_id").type = "text";
+}
+
+function ocultaSenha2(id){
+    $("#" + id).hide();
+    $("#show_pass2").show();
+    document.getElementById("conf_id").type = "password";
+}
+
+
+

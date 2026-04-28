@@ -228,12 +228,12 @@
 }
 
 .inp_cad6{
-    width: 160px;
+    width: 150px;
     padding: 10px 10px;
 }
 
 .inp_cad7{
-    width: 300px;
+    width: 310px;
     padding: 10px 10px;
 }
 
@@ -289,5 +289,5 @@ a{color: #ff009c;
     cursor: pointer;
 }
 
-/*#hide_pass1{display:none;
-}*/
+#hide_pass1, #hide_pass2{display:none;
+}

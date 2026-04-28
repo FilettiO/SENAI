@@ -18,8 +18,6 @@
     <script type="text/javascript" src="js/mascara.js"></script>
     <script type="text/javascript" src="js/validacao.js"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
-
     <title>Marisa - Cadastro</title>
 </head>
 <body>
@@ -77,7 +75,7 @@
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone*</b>
-                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad5" id="tel_id" />
+                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad5" id="tel_id" onkeyup="mascaraCel(this.id);"/>
                         </div>
                     </div>
                 </form>
@@ -131,19 +129,19 @@
                     <div class="box_form">
                         <div class="box_form_ddd1">
                             <b>DDD*</b>
-                            <input type="text" name="ddd1_1" placeholder="(00)" class="inp_cad4" maxlength="2" id="ddd_cel_id" />
+                            <input type="text" name="ddd1_1" placeholder="(00)" class="inp_cad4" maxlength="2" id="ddd_cel_id" onkeyup="mascaraDdd(this.id);"/>
                         </div>
                         <div class="box_form_celular">
                             <b>Celular*</b>
-                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" maxlength="9" id="cel_id" />
+                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" maxlength="9" id="cel_id" onkeyup="mascaraCel(this.id);"/>
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD*</b>
-                            <input type="text" name="ddd2_1" placeholder="(00)" class="inp_cad4" maxlength="2" id="ddd_tel_id"/>
+                            <input type="text" name="ddd2_1" placeholder="(00)" class="inp_cad4" maxlength="2" id="ddd_tel_id" onkeyup="mascaraDdd(this.id);"/>
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone*</b>
-                            <input type="text" name="tel1" placeholder="0000 - 0000" class="inp_cad5" maxlength="9" id="tel_id" />
+                            <input type="text" name="tel1" placeholder="0000 - 0000" class="inp_cad5" maxlength="9" id="tel_id" onkeyup="mascaraTel(this.id);"/>
                         </div>
                     </div>
                     
@@ -178,9 +176,10 @@
 
                     <div class="box_form">
                         <b>Confirmar Senha*</b>
-                        <input type="password" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" id="conf_id" />
+                        <input type="password" name="senha2" placeholder="Insira a senha novamente" class="inp_cad1" id="conf_id"/>
                         <div class="box_bt_mostrar">
-                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha"/>
+                            <img src="images/eye-slash.png" alt="Mostra Senha" class="bt_mostra_senha" id="show_pass2" onclick="mostraSenha2(this.id);"/>
+                            <img src="images/eye-open.png" alt="Mostra Senha" class="bt_mostra_senha" id="hide_pass2" onclick="ocultaSenha2(this.id);"/>
                         </div>
                     </div>
                     
@@ -189,7 +188,7 @@
 
             <div class="cadastro_box3">
                 <div class="termo_cpf">
-                    <input type="checkbox" class="inp_ck_termos" />
+                    <input type="checkbox" class="inp_ck_termos" id="chk_id" />
                     <label> Li, compreendi e concordo com as <a id="cond_id" onclick="showCond(this.id);">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
                     <div class="cadastro_box3_1">
                         <div class="close"> 
