@@ -67,7 +67,7 @@
                         </div>
                         <div class="box_form_celular">
                             <b>Celular*</b>
-                            <input type="text" name="celular" placeholder="00000 - 0000" class="inp_cad5" maxlength="9" id="cel_id" onkeyup="mascaraCel(this.id);"/>
+                            <input type="text" name="celular" placeholder="00000 - 0000" class="inp_cad5" maxlength="10" id="cel_id" onkeyup="mascaraCel(this.id);"/>
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD*</b>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="box_form_tel">
                             <b>Telefone*</b>
-                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad5" id="tel_id" onkeyup="mascaraCel(this.id);"/>
+                            <input type="text" name="tel" placeholder="0000 - 0000" class="inp_cad5"  maxlength="9" id="tel_id" onkeyup="mascaraTel(this.id);"/>
                         </div>
                     </div>
                 </form>
@@ -133,7 +133,7 @@
                         </div>
                         <div class="box_form_celular">
                             <b>Celular*</b>
-                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" maxlength="9" id="cel_id" onkeyup="mascaraCel(this.id);"/>
+                            <input type="text" name="celular1" placeholder="0000 - 0000" class="inp_cad5" maxlength="10" id="cel_id" onkeyup="mascaraCel(this.id);"/>
                         </div>
                         <div class="box_form_ddd2">
                             <b>DDD*</b>
@@ -189,7 +189,7 @@
             <div class="cadastro_box3">
                 <div class="termo_cpf">
                     <input type="checkbox" class="inp_ck_termos" id="chk_id" />
-                    <label> Li, compreendi e concordo com as <a id="cond_id" onclick="showCond(this.id);">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
+                    <label> Li, compreendi e concordo com as <a id="cond_id" onclick="showCond(this.id);">Condições Gerais</a>, inclusive quanto à proteção de dados pessoais, suas finalidades e hipóteses de tratamento de acordo com a nossa <a href="polit_priv.php">Política de Privacidade</a>. Autorizo também o recebimento de e-mails promocionais da Marisa.</label>
                     <div class="cadastro_box3_1">
                         <div class="close"> 
                             <img src="images/x.png" alt="Fechar Condições" class="x" id="close" onclick="hideCond(this.id);"/>
@@ -198,10 +198,11 @@
                         <p>Privacidade e Segurança</p></br>              
                         <p class="priv">Última atualização em 13 de abril de 2021. </br>A presente Política de Privacidade tem por finalidade demonstrar o compromisso das Lojas Marisa S.A (“Marisa”) com a privacidade e a proteção dos dados pessoais coletados de seus usuários, estabelecendo regras sobre a obtenção, uso e armazenamento dos dados, dentro do escopo dos serviços e funcionalidades do seu Portal (www.marisa.com.br), além do registro das atividades de acordo com as leis em vigor, com transparência e clareza junto ao usuário e ao mercado em geral. Como condição para acesso e uso das funcionalidades exclusivas do Portal, o usuário declara que ao aceitá-las fez a leitura completa e atenta da presente Política de Privacidade, estando plenamente ciente, conferindo assim sua livre e expressa concordância com as regras aqui estipuladas.</p>
                         <div>
-                            <b class="priv">Para saber mais, <a href="">Clique Aqui</a></b>
+                            <b class="priv">Para saber mais, <a href="polit_priv.php">Clique Aqui</a></b>
                         </div>
                     </div>
-                    <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>                    
+                    <span class="bt_finaliza" onclick="enviarDadosCpf();">Finalizar Cadastro</span>
+                    <div id="retornoCpf"></div>                    
                 </div>
                 <div class="termo_cnpj">
                     <h2>Ofertas</h2>

@@ -24,7 +24,7 @@
             <input type="password" name="senha" placeholder="Informe sua senha" class="inp" id="senha_id"/>
             <a href="" class="forgot">Esqueceu sua senha?</a>
             <input type="submit" value="Entrar" class="btnn" onclick="enviarDadosLogin();"/>
-            <b>Ainda não tem um cadastro? <a href="cadastro.php"> Crie sua conta</a></b>
+            <b>Ainda não tem um cadastro? <a href="cadastro.php">Crie sua conta</a></b>
         </form>
     </div>
  <?php include("includes/rodape.php");?>

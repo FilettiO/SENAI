@@ -73,7 +73,7 @@ function mascaraTel(id){
     }
 
     if(valor.length >=5){
-        campo.value = valor.replace(/^(\d{4})(\d{1,3})$/, "$1-$2")
+        campo.value = valor.replace(/^(\d{4})(\d{1,4})$/, "$1-$2")
     }else{
         campo.value = valor
     }
