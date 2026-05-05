@@ -181,16 +181,7 @@ function validarSenha(id){
     }
 }
 
-function validarSenha2(id){
-    let senha2 = document.getElementById(id).value;
-    if(senha2.length >=8){
-        return true;
-    }else{
-        return false;
-    }
-}
-
-function compararSenhas(id){
+function compararSenhas(){
     let senha1 = document.getElementById("senha_id").value;
     let senha2 = document.getElementById("conf_id").value;
     if(senha1 === senha2){   //os 3 "=" significam que as senhas devem ser exatamente iguais
@@ -201,7 +192,7 @@ function compararSenhas(id){
 }
 
 function validarTermoPf(id){
-    if(document.getElementById().checked == true){
+    if(document.getElementById(id).checked == true){
         return true;
     }else{
         return false;

@@ -18,14 +18,16 @@ function hideCond(id){
 }
 
 function enviarDadosCpf(){
-    if(validarNomePf("nome_id") && validarData("nasc_id") 
-        && validarCPF("cpf_id") && validarGenero() 
-        && validarDdd1("ddd_cel_id") && validarCel("cel_id") 
-        && validarDdd2("ddd_tel_id") && validarTel("tel_id") 
-        && validarEmail("email_id") && validarToken("token_id") 
-        && validarSenha("senha_id") && validarSenha2("conf_id") 
-        && compararSenhas("compararSenhas(id)") && validarTermoPf("chk_id")        
-){  var nome = document.getElementById("nome_id").value; 
+    if(
+        validarNomePf("nome_id") && validarData("nasc_id")
+        && validarCPF("cpf_id") && validarGenero()
+        && validarDdd1("ddd_cel_id") && validarCel("cel_id")
+        && validarDdd2("ddd_tel_id") && validarTel("tel_id")
+        && validarEmail("email_id") && validarToken("token_id")
+        && validarSenha("senha_id") && validarSenha("conf_id") 
+        && compararSenhas() && validarTermoPf("chk_id") 
+){  
+    var nome = document.getElementById("nome_id").value; 
     var nasc = document.getElementById("nasc_id").value;
     var cpf = document.getElementById("cpf_id").value;
     var masc = document.getElementById("masc_id").value;
@@ -60,7 +62,7 @@ function enviaDadosPf(nome, nasc, cpf, genero, ddd_cel, cel, ddd_tel, tel, email
         url: 'http://localhost/marisa/classes/process_cadastroPf.php',
         type: 'post',
         dataType: 'html',
-        data: {nome: nome, nasc:nasc, cpf:cpf, genero:genero, ddd_cel:ddd_cel, cel:cel, ddd_tel:ddd_tel, tel:tel, email:email, token:token, senha:senha},
+        data: {nome:nome, nasc:nasc, cpf:cpf, genero:genero, ddd_cel:ddd_cel, cel:cel, ddd_tel:ddd_tel, tel:tel, email:email, token:token, senha:senha},
         beforeSend : function(){
             
         },

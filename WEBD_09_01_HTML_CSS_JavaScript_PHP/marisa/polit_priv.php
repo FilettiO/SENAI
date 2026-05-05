@@ -156,11 +156,20 @@
     <p>Os dados coletados e os registros de atividades serão armazenados em servidores seguros, controlados e localizados no Brasil.</p>
     <h5>4. Cookies</h5>
     <p>A MARISA utiliza as tecnologias mais modernas para registrar eventos de navegação, clicks, eventos e dados não identificáveis. Todas as tecnologias utilizadas respeitarão sempre a legislação de privacidade e proteção de dados pessoais vigente e os termos desta Política de Privacidade.</p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <h5></h5>
-    <p></p>
+    <p>O site fará o uso de cookies. Os principais navegadores de internet possibilitam ao titular gerenciar a utilização dos cookies em seu dispositivo (computador, celular, tablet e etc.). Caso o titular não concorde, é possível desabilitar esta função, sendo bloqueada a coleta de alguns tipos de cookies.</p>
+    <p>Todavia, caso deseje bloqueá-los, nesta hipótese, algumas funcionalidades do site poderão ser limitadas.</p>
+    <p>Para saber mais, o titular poderá acessar nossa Política de Cookies em: <a href="">https://www.marisa.com.br/institucional/politicas-cookies</a>.</p>
+    <h5>5. Compartilhamento de Dados Pessoais</h5>
+    <p>A MARISA se compromete a compartilhar os dados pessoais apenas com parceiros que empreguem alto nível de segurança da informação, estabelecendo cláusulas contratuais que não violem as disposições desta Política. Além disso, listamos abaixo algumas hipóteses de compartilhamento:</p>
+    <ul>
+        <li>Com autoridades judiciais, administrativas ou governamentais competentes, sempre que houver determinação legal ou requerimento, requisição ou ordem judicial;</li>
+        <li>Com a Brasspag, que recebe dados bancários do titular, enquanto cliente, para processar as transações efetuadas;</li>
+        <li>Com a Clearsale, visando a prevenção a fraudes;</li>
+        <li>Com demais empresas parceiras, quando forem necessárias para a adequada prestação dos serviços objeto de sua atividade; e</li>
+        <li>Para o exercício regular de direitos em processo judicial, administrativo ou arbitral.</li>
+    </ul>
+    <p>A MARISA poderá também transferir dados pessoais para as empresas do mesmo grupo econômico, para fins de estatística, alinhamento interno e cumprimento de obrigações legais ou regulatórias ou de ordem judicial. A MARISA garante que, caso necessário, tais transferências serão realizadas para países que contam com proteção legal correspondente à brasileira e observando todas as medidas de segurança necessárias.</p>
+    <p>A base de dados formada por meio da coleta de dados no site é de responsabilidade da empresa, sendo que seu uso, acesso e compartilhamento, quando necessários, serão feitos dentro dos limites e propósitos dos negócios da MARISA, respeitando as legislações vigentes e aplicáveis sobre privacidade e proteção de dados pessoais e descritos nesta Política de Privacidade.</p>
     <h5></h5>
     <p></p>
     <h5></h5>
