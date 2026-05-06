@@ -20,6 +20,6 @@
     }else{
         echo "Cadastro realizado com sucesso!";
     }
-    
+      
     //echo $nome."/".$nasc."/".$cpf."/".$genero."/".$ddd_cel."/".$cel."/".$ddd_tel."/".$tel."/".$email."/".$token."/".$senha;
 ?>
