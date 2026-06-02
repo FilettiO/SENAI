@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">    
+
+    <title>Projeto 1</title>
+</head>
+
+<!-- Mexer na responsividade + flex de alguns elementos -->
+
+<body>
+    <header>        
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+            <div class="container-lg">                        
+                <a class="navbar-brand ms-5" href="#">
+                    <img src="images/logo.png" alt="Logo" width="112.5" height="60">
+                </a>
+            </div>
+            <div class="container-lg">                                       
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">                        
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active" href="#">SOBRE NÓS</a>
+                        <a class="nav-link active" href="#">PRODUTOS</a>
+                        <a class="nav-link active" href="#">PARCEIROS</a>
+                        <a class="nav-link active" href="#">CONTATO</a>
+                    </div>                        
+                </div>                     
+            </div>
+        </nav>        
+    </header>
+<!-- BANNER -->
+    <section>               
+        <img src="images/banner.png" alt="Banner" class="w-100"/>
+        <!--<button class="btn btn-primary z-3">teste</button>-->
+    </section>
+    
+<!-- SOBRE NÓS -->
+    <section class="bg-white">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/empresa.png" alt="Fachada da empresa" class="img-fluid rounded"/>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-primary fw-bold">SOBRE NÓS</p>
+                    <h2>Inovação, qualidade e compromisso com o seu<span class="text-primary"> sucesso.</span></h2>
+                    <p>A TechSolutions é uma empresa de tecnologia focada em desenvolver soluções inovadoras que atendem às necessidades do mercado atual. Com uma equipe altamente especializada, oferecemos produtos e serviços de excelência que geram resultados reais para nossos clientes.</p>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="images/target.png" width="35" height="35"/>
+                        </div>
+                        <div class="col-sm-3">                            
+                            <p class="fs-5 fw-semibold">Missão</p>
+                            <p>Entregar soluções tecnológicas inovadoras com qualidade e confiabilidade.</p>
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/eye.png" width="35" height="35"/>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="fs-5 fw-semibold">Visão</p>
+                            <p>Ser referência em tecnologia, transformando negócios e pessoas.</p>
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/diamond.png" width="45" height="30"/>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="fs-5 fw-semibold">Valores</p>
+                            <p>Inovação, ética, compromisso, qualidade e foco no cliente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- PRINCIPAIS PRODUTOS -->
+    <section class="bg-light mt-5 pb-4">
+        <div class="container-lg">
+            <p class="fs-6 fw-bold text-primary text-center">PRINCIPAIS PRODUTOS</p>
+        </div>
+        <div class="container-lg">
+            <p class="fs-2 fw-bold text-center">Tecnologia para impulsionar seu negócio</p>
+        </div>
+        <div class="container-lg">
+            <div class="row justify-content-evenly">
+                <div class="col-md-2 card border-0 shadow">
+                    <img src="images/notebook.png" width="196" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Notebooks Empresariais</p>
+                    <p>Desempenho e segurança para alta produtividade.</p>
+                </div>
+                <div class="col-md-2 card border-0 shadow">
+                    <img src="images/servidor.png" width="196" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Servidores</p>
+                    <p>Alta performance e estabilidade para sua empresa crescer.</p>
+                </div>
+                <div class="col-md-2 card border-0 shadow">
+                    <img src="images/camera.png" width="185" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Câmeras de Segurança</p>
+                    <p>Monitoramento inteligente com alta definição e acesso remoto.</p>
+                </div>
+                <div class="col-md-2 card border-0 shadow">
+                    <img src="images/roteador.png" width="196" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Redes e Conectividade</p>
+                    <p>Conexões rápidas, estáveis e seguras para o seu negócio.</p>
+                </div>
+                <div class="col-md-2 card border-0 shadow">
+                    <img src="images/nas.png" width="196" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Armazenamento (NAS)</p>
+                    <p>Segurança e escalabilidade para seus dados.</p>
+                </div>
+            </div>
+        </div>                <!-- FAZER O SAIBA MAIS DE CADA CARD -->
+    </section>
+
+<!-- PARCEIROS -->
+    <section>
+        <div class="container-lg mt-4">
+            <p class="fs-6 fw-bold text-primary text-center">NOSSOS PARCEIROS</p>
+        </div>        
+        <div class="container-lg">
+            <div class="row justify-content-evenly">
+                <div class="col-md-2 card border-0">
+                    <img src="images/dell.svg" width="" height="" class="img-fluid"/>
+                </div>
+                <div class="col-md-2 card border-0">
+                    <img src="images/hp.png" width="" height="" class="img-fluid"/>
+                </div>
+                <div class="col-md-2 card border-0">
+                    <img src="images/intel.svg" width="" height="" class="img-fluid"/>
+                </div>
+                <div class="col-md-2 card border-0">
+                    <img src="images/microsoft.webp" width="" height="" class="img-fluid"/>
+                </div>
+                <div class="col-md-2 card border-0">
+                    <img src="images/kaspersky.png" width="" height="" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
