@@ -4,53 +4,268 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">    
 
     <title>Projeto 1</title>
 </head>
-<body>
-    <header class="bg-dark">
-        <div class="container">
-                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">                    
-                    <div class="container justify-content-start">
-                        <a class="navbar-brand" href="#"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="col-md-5">
-                            <div class="container bg-danger">
-                                <a class="navbar-brand bg-info" href="#">
-                                    <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/6332578-digital-tech-business-logo-design-vetor.jpg" alt="Logo" width="35" height="40">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                           <div class="col">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link active bg-danger" aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active bg-warning" href="#">Sobre nós</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active bg-success" href="#">Produtos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active bg-info" href="#">Parceiros</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active bg-primary" href="#">Contato</a>
-                                    </li>        
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-        </div>
-    </header>
 
-</nav>
+<body>
+
+<!-- MENU -->    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="#">
+                    <img src="images/logo.png" alt="Logo" width="187.5" height="100" class="d-inline-block align-text-top"/>
+                </a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-5">
+                            <li class="nav-item">
+                                <a class="nav-link active m-4" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link m-4" href="#">SOBRE NÓS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link m-4" href="#">PRODUTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link m-4">PARCEIROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link m-4">CONTATO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>    
+
+
+<!-- BANNER -->
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/banner1.png" class="d-block w-100" alt="Tecnologia que transforma">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/banner2.png" class="d-block w-100" alt="Faça seu orçamento!">
+                </div>                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </section>
+    
+<!-- SOBRE NÓS -->
+    <section class="bg-white">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/empresa.png" alt="Fachada da empresa" class="img-fluid rounded"/>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-primary fw-bold">SOBRE NÓS</p>
+                    <h2>Inovação, qualidade e compromisso com o seu<span class="text-primary"> sucesso.</span></h2>
+                    <p>A TechSolutions é uma empresa de tecnologia focada em desenvolver soluções inovadoras que atendem às necessidades do mercado atual. Com uma equipe altamente especializada, oferecemos produtos e serviços de excelência que geram resultados reais para nossos clientes.</p>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <img src="images/target.png" width="35" height="35"/>
+                        </div>
+                        <div class="col-sm-3">                            
+                            <p class="fs-5 fw-semibold">Missão</p>
+                            <p>Entregar soluções tecnológicas inovadoras com qualidade e confiabilidade.</p>
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/eye.png" width="35" height="35"/>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="fs-5 fw-semibold">Visão</p>
+                            <p>Ser referência em tecnologia, transformando negócios e pessoas.</p>
+                        </div>
+                        <div class="col-sm-1">
+                            <img src="images/diamond.png" width="45" height="30"/>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="fs-5 fw-semibold">Valores</p>
+                            <p>Inovação, ética, compromisso, qualidade e foco no cliente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- PRINCIPAIS PRODUTOS -->
+    <section class="bg-light mt-5 pb-4">
+        <div class="container-lg">
+            <p class="fs-6 fw-bold text-primary text-center">PRINCIPAIS PRODUTOS</p>
+        </div>
+        <div class="container-lg">
+            <p class="fs-2 fw-bold text-center">Tecnologia para impulsionar seu negócio</p>
+        </div>
+        <div class="container-lg">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-2 card border-0 shadow justify-content-center align-items-center">
+                    <img src="images/notebook.png" width="196" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Notebooks Empresariais</p>
+                    <p>Desempenho e segurança para alta produtividade.</p>
+                    <p class="fs-6 fw-medium text-primary ms-1 mt-auto">Saiba mais →</p>
+                </div>
+                <div class="col-lg-2 card border-0 shadow justify-content-center align-items-center">
+                    <img src="images/servidor.png" width="196" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Servidores</p>
+                    <p>Alta performance e estabilidade para sua empresa crescer.</p>
+                    <p class="fs-6 fw-medium text-primary ms-1 mt-auto">Saiba mais →</p>
+                </div>
+                <div class="col-lg-2 card border-0 shadow justify-content-center align-items-center">
+                    <img src="images/camera.png" width="185" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Câmeras de Segurança</p>
+                    <p>Monitoramento inteligente com alta definição e acesso remoto.</p>
+                    <p class="fs-6 fw-medium text-primary ms-1 mt-auto">Saiba mais →</p>
+                </div>
+                <div class="col-lg-2 card border-0 shadow justify-content-center align-items-center">
+                    <img src="images/roteador.png" width="196" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Redes e Conectividade</p>
+                    <p>Conexões rápidas, estáveis e seguras para o seu negócio.</p>
+                    <p class="fs-6 fw-medium text-primary ms-1 mt-auto">Saiba mais →</p>
+                </div>
+                <div class="col-lg-2 card border-0 shadow justify-content-center align-items-center">
+                    <img src="images/nas.png" width="196" height="140" class="mt-3 mb-3"/>
+                    <p class="fs-6 fw-bold">Armazenamento (NAS)</p>
+                    <p>Segurança e escalabilidade para seus dados.</p>
+                    <p class="fs-6 fw-medium text-primary ms-1 mt-auto">Saiba mais →</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- NOSSOS PARCEIROS -->
+    <section>
+        <div class="container-lg mt-4">
+            <p class="fs-6 fw-bold text-primary text-center">NOSSOS PARCEIROS</p>
+        </div>        
+        <div class="container-lg">
+            <div class="row justify-content-evenly">
+                <div class="col-md-2 card border-0 justify-content-center">
+                    <img src="images/dell.svg" class="img-fluid" alt="Dell"/>                                       
+                </div>
+                <div class="col-md-2 card border-0 justify-content-center">                    
+                    <img src="images/hp.png" class="img-fluid" alt="HP"/>                    
+                </div>                
+                <div class="col-md-2 card border-0 justify-content-center">
+                    <img src="images/intel.svg" class="img-fluid" alt="Intel"/>
+                </div>                
+                <div class="col-md-2 card border-0 justify-content-center">
+                    <img src="images/microsoft.webp" class="img-fluid" alt="Microsoft"/>
+                </div>
+                <div class="col-md-2 card border-0 justify-content-center">
+                    <img src="images/kaspersky.png" class="img-fluid" alt="Kaspersky"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<!-- RODAPÉ -->
+    <footer class="bg-dark">
+        <div class="container-lg">
+            <div class="row text-light">
+                <div class="col-md">
+                    <div>
+                        <img src="images/logo.png" class="img-fluid" alt="Logo"/>
+                    </div>        
+                    <div>
+                        <p class="fs-6">Soluções tecnológicas completas para impulsionar a inovação e o crescimento do seu negócio</p>
+                    </div>
+                    <div class="row justify-content-evenly">
+                        <div class="col-3">
+                            <img src="images/facebook.png" class="img-fluid mx-auto d-block" heigth="35" width="35" alt="Facebook"/>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/linkedin.webp" class="img-fluid mx-auto d-block" heigth="40" width="40" alt="LinkedIn"/>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/instagram.webp" class="img-fluid mx-auto d-block" heigth="35" width="35" alt="Instagram"/>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/youtube.webp" class="img-fluid mx-auto d-block" heigth="35" width="35" alt="YouTube"/>
+                        </div>
+                    </div>        
+                </div>                
+                <div class="col-md mt-5">
+                    <p class="fw-medium">NAVEGAÇÃO</p>
+                    <p class="text-primary">HOME</p>
+                    <p>SOBRE NÓS</p>
+                    <p>PRODUTOS</p>
+                    <p>PARCEIROS</p>
+                    <p>CONTATO</p>
+                </div>
+                <div class="col-md mt-5">
+                    <p class="fw-medium">ENDEREÇO</p>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/localization.webp" class="mt-2" height="20" width="20"/>
+                        </div>
+                        <div class="col-10">
+                            <p>Av. das Inovações, 1240 
+                                Sala 501 - Bairro Floresta 
+                                São Paulo - SP, 04567-000</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/phone.webp" class="img-fluid" height="20" width="20"/>
+                        </div>
+                        <div class="col-10">
+                            <p>(11) 4002-8922</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/email.webp" class="img-fluid" height="20" width="20"/>
+                        </div>
+                        <div class="col-10">
+                            <p>contato@techsolutions.com.br</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mt-5">                    
+                    <p class="fw-medium">MAPA</p>                    
+                        <img src="images/map.png" class="img-fluid rounded" alt="Endereço no mapa"/>                                        
+                </div>
+                <div class="col-md mt-5">                    
+                    <p class="fw-medium">HORÁRIO DE ATENDIMENTO</p>                    
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/clock.webp" class="mt-2" height="20" width="20"/>
+                        </div>
+                        <div class="col-10">
+                            <p>Segunda a Sexta <br> 07:00 às 20:00</p>
+                            <p>Sábado <br> 08:00 às 12:00</p>
+                            <p>Domingo <br> Fechado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center mt-4">
+                    <p class="text-light-emphasis">@2026 TechSolutions Soluções Tecnológicas. Todos os direitos reservados</p>
+                </div>                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
