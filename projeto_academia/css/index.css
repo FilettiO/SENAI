@@ -1,0 +1,114 @@
+.logo{
+    width: 130px;
+}
+
+.size{
+    font-size: 16px;
+}
+
+.t1{
+    color: rgba(166,166, 166, 1)
+}
+
+.t2{
+    color: rgba(5, 36, 100, 1);
+}
+
+.t3{
+    color: rgba(76, 76, 76, 1)
+}
+
+.c1, .c2{
+    background-color: rgba(207, 218, 239, 1);
+}
+
+.c2{
+    border-style: none none none solid;
+    border-color: rgba(137, 164, 216, 1);
+    border-radius: 4px 0 0 4px;    
+}
+
+.btnn{
+    background-color: rgba(137, 164, 216, 1);
+    border-color: rgba(137, 164, 216, 1);
+    border-style: none;    
+    color: rgba(63, 81, 98, 1);
+    padding: 5px 15px;
+    margin-left: -140px;
+}
+
+.esp{
+    background-color: rgba(38, 47, 66, 1) ;
+}
+
+.div-marcas{
+    height: 10px;
+    background-color: rgba(5, 36, 100, 1) ;
+}
+
+
+
+
+
+
+
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+/*.logos:before, .logos:after{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+}
+
+.logos:before{
+    left: 0;
+    background: linear-gradient(to left, rgb(241, 3, 3), white);
+}
+
+.logos:after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}*/
+
+.logos:hover .logos-slide{
+    animation-play-state: paused;
+}
+
+.logos-slide{
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+.logos-slide img{
+    height: 50px;
+    margin: 0 40px;
+}
+
+
+
+
+.redes{
+    justify-self: center;
+}
+
+.footer{
+    background-color: rgba(38, 47, 66, 1);
+}
