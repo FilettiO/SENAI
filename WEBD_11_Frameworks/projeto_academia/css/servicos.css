@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.section{
+    background-color: rgb(26, 31, 35);
+}
+
+.section:last-child{
+    margin-bottom: 110px;
+}
+
+ul{
+    flex-direction: column;
+}
+
+ul li{
+    margin: 40px;
+}
+
+.btnn{
+    background-color: rgb(188 202 220);
+    color: black;
+    padding: 5px 20px;
+}
+
+.impar{
+    margin-left: 800px;
+}
+
+.par{
+    margin-left: 260px;
+}
+
+.teste{
+    position: relative;
+    
+}
+
+.teste2{
+    position: absolute;
+    
+    bottom: 0;
+    left: 72%;
+}

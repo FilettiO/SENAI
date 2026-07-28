@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
     <style type="text/css">@import url("css/index.css");</style>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
     <title>Bem-Vindo à Alta Forma!</title>
 </head>
 <body>
 
     <!--
+        colocar fotinha na aba
         centralizar menu
         ajustar imagens da seção 1
         responsividade imagens seção 2 + distancia do botão à 1º imagem
+        responsividade da linha de decoração do "marcas"
+
+
+
+        quanto terminar:
+        
+        verificar RESPONSIVIDADE de todas as pág e todos os elementos
+
+
     -->
 
     <!-- MENU -->
@@ -59,7 +71,7 @@
     </div>
 
 <!-- SEÇÃO 1  -->
-    <div class="container">
+    <section class="container">
         <div class="row mt-5 mb-5">
             <div class="col-md-6 d-inline bg-primary ">
                 <img src="images/s1_homem.png" class="mx-auto img-thumbnail" alt=""/>
@@ -91,10 +103,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     
 <!-- SEÇÃO 2 -->
-    <div class="container">
+    <section class="container">
         <div class="row">
             <div class="col-lg-4">
                 <h1 class="fw-bold ms-3">Nossas <span class="fw-bold t2">Especialidades</span></h1>
@@ -127,6 +139,27 @@
                 <img src="images/s2_pilates.jpg" class="img-fluid" alt="Pessoas fazendo pilates"/>
             </div>
         </div>
+    </section>
+
+<!-- SEÇÃO 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 d-flex align-items-center">
+                <div class="w-100 div-marcas"></div>          
+            </div>
+            <div class="col-md-3">
+                <h2 class="fw-bold text-end m-4">Marcas <span class="fw-bold t2">Parceiras</span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="logos">
+        <div class="logos-slide">
+            <img src="images/marcado.png" alt="Marcado"/>
+            <img src="images/twaajd.png" alt="Twaajd"/>
+            <img src="images/aesir.png" alt="Aesir"/>
+            <img src="images/pure.png" alt="Pure"/>
+            <img src="images/martha_smither.png" alt="Martha Smither"/>
+        </div>        
     </div>
 
 
@@ -201,7 +234,7 @@
         </div>
     </footer>
 
-
+    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

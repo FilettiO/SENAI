@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.banner{
+    width: 1350px;
+}
+
+.section2{
+    background-color: rgba(41, 41, 41, 1);
+    margin-bottom: 110px;
+}
+
+p a{
+    color: rgba(45, 84, 172, 1) !important; 
+}
+
+img{
+    height: 303px;
+}
+
