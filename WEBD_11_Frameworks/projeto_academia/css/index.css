@@ -6,6 +6,38 @@
     font-size: 16px;
 }
 
+
+/*.underlay{
+    z-index: 1;
+    position: absolute;
+    height: 300px;
+    left: 120px;
+}
+
+.overlay{
+    z-index: 2;
+    position: relative;
+    left: 184px;
+    top: 170px;
+    height: 270px;
+}*/
+
+.underlay{
+    z-index: 1;
+    position: absolute;
+    height: 38%;
+    left: 6%;
+}
+
+.overlay{
+    z-index: 2;
+    position: relative;
+    left: 25%;
+    top: 35%;
+    height: 65%;
+}
+
+
 .t1{
     color: rgba(166,166, 166, 1)
 }
