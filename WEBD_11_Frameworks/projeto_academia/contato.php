@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style type="text/css">@import url("css/index.css");</style>
+    <style type="text/css">@import url("css/contato.css");</style>
+
+
+    <link rel="icon" href="images/favicon.png" sizes="50x48" type="image/x-icon"/>
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <?php include("includes/header.php");?>
+
+<!-- BANNER -->
+    <div class="container-fluid bg-black text-light pt-5">
+        <img src="images/banner4.png" class="img-fluid mx-auto d-block text-light" alt="Fale conosco"/>
+    </div>
+
+<!-- FORMULÁRIO -->
+    <section>
+        <div class="container">
+            <h3 class="ms-2 mb-4">Ficou com alguma dúvida?</h3>
+            <div class="row">
+                <div class="col-md-7">
+                    <h5 class="ms-4 mb-4">Preencha o formulário e responderemos o mais breve possível :&#41</h5>
+                    <form action="" method="" class="form">
+                        <div class="box_form">
+                            <label>Nome completo</label> <br>
+                            <div class="d-flex d-inline justify-content-between">
+                                <input type="text" name="nome" class="inp1"/>
+                                <input type="text" name="sobrenome" class="inp1"/>
+                            </div> 
+                            
+                        </div>
+                        <div class="box_form">
+                            <label>E-mail</label> <br>
+                            <input type="email" name="email" class=""/>
+                        </div>
+                        <div class="box_form">
+                            <label>Assunto</label> <br>
+                            <input type="text" name="assunto" class=""/>
+                        </div>
+                        <div class="box_form">
+                            <label>Mensagem</label> <br>
+                            <input type="textarea" name="mensagem" class="inp2"/>                            
+                        </div>
+                        <div class="button d-flex justify-content-center">
+                            <input type="submit" value="ENVIAR" class="btn fw-bold"/>
+                        </div>
+                    </form>
+                </div>                
+<!-- UNIDADES -->
+                <div class="col-md-5 d-flex justify-content-center">
+                    <div class="d-flex justify-content-between unidades">
+                        <h4>Unidades</h4>
+                        <div class="unidades_box">
+                            <h6>Jaguariúna (sede)</h6>
+                            <span>(19) 99999-9999</span>
+                        </div>
+                        <div class="unidades_box">
+                            <h6>Araçatuba</h6>
+                            <span>(19) 99999-9991</span>
+                        </div>
+                        <div class="unidades_box">
+                            <h6>Presidente Prudente</h6>
+                            <span>(19) 99999-9992</span>
+                        </div>
+                        <div class="unidades_box">
+                            <h6>São Paulo</h6>
+                            <span>(19) 99999-9993</span>
+                        </div>
+                        <div class="unidades_box">
+                            <h6>Ribeirão Preto</h6>
+                            <span>(19) 99999-9994</span>
+                        </div>
+                        <div class="unidades_box">
+                            <h6>São Carlos</h6>
+                            <span>(19) 99999-9995</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- CONTATO -->
+    <section>
+        <div class="container mt-5">
+            <h6>Ou entre em contato pelo nosso e-mail ou telefone</h6>
+            <div class="d-inline-flex w-100 mt-3 mb-4 email">
+                <div class="me-3">
+                    <img src="images/email.png" alt="Email: " class="img-fluid cont_img">
+                </div>
+                <div class="contato">
+                    <label class="cont_esc">altaforma@gmail.com</label>
+                </div>
+            </div>
+            <div class="d-inline-flex w-100 mb-5 telefone">
+                <div class="me-3">
+                    <img src="images/telefone.png" alt="Telefone: " class="img-fluid cont_img">
+                </div>
+                <div class="contato">
+                    <label class="cont_esc">(19) 99999-9999</label>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+<!-- MAPA -->
+    <section>
+        <div class="container d-flex align-items-center justify-content-center mb-5 mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.677484615104!2d-46.99549542465184!3d-22.703046979399062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8e844aa89e78b%3A0x2081034474f4726a!2sEscola%20SENAI%20Jaguari%C3%BAna!5e0!3m2!1spt-BR!2sbr!4v1785514715845!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+        </div>
+    </section>
+
+    <?php include("includes/footer.php");?>
+</body>
+</html>
