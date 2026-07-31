@@ -14,7 +14,9 @@
     <link rel="icon" href="images/favicon.png" sizes="50x48" type="image/x-icon"/>
     <title>Nossos Serviços</title>
 </head>
-<body>    
+<body>
+    <?php include("includes/header.php");?>
+    
 <!-- BANNER -->
     <div class="container-fluid bg-black text-light pt-5">
         <img src="images/banner3.png" class="img-fluid mx-auto d-block text-light" alt="Nossa Academia"/>
@@ -113,5 +115,7 @@
 
         </div>
     </section>
+
+    <?php include("includes/footer.php");?>
 </body>
 </html>

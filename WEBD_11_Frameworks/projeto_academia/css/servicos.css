@@ -25,9 +25,7 @@ ul li{
     padding: 5px 20px;
 }
 
-
-
-.teste, .testeA{
+.impar_box, .par_box{
     position: relative;
     
 }
@@ -37,4 +35,23 @@ ul li{
     margin-bottom: -25px;
     bottom: 0;
     left: 72%;
+}
+
+.par{
+    position: absolute;
+    margin-bottom: -25px;
+    bottom: 0;
+    right: 62%;
+}
+
+@media (max-width: 770px){
+    .par{
+        position: absolute;
+        margin-bottom: -25px;
+        bottom: -5px;
+        right: 15%;
+    }
+    .par_box{
+        padding-bottom: 50px;
+    }
 }

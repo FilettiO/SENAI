@@ -17,7 +17,7 @@
                             <a class="nav-link active fw-semibold m-4">NOSSA ACADEMIA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fw-semibold m-4">NOSSOS SERVIÇOS</a>
+                            <a href="../servicos.php" class="nav-link active fw-semibold m-4">NOSSOS SERVIÇOS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active fw-semibold m-4">NOSSOS PRODUTOS</a>
