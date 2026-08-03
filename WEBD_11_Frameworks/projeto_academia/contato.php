@@ -48,7 +48,7 @@
                         </div>
                         <div class="box_form">
                             <label>Mensagem</label> <br>
-                            <input type="textarea" name="mensagem" class="inp2"/>                            
+                            <textarea type="mensagem" class="inp2"></textarea>                            
                         </div>
                         <div class="button d-flex justify-content-center">
                             <input type="submit" value="ENVIAR" class="btn fw-bold"/>

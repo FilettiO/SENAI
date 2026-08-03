@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(239, 239, 239);
+    
+}
+
+.bann{
+    background-color: rgb(223, 219, 219);
+    margin-top: 60px;
+}
+
+.vend_section label{
+    color: #000;
+}
+
+section{
+    margin: 40px 0;
+}
+
+h4{
+    font-weight: bold;
+    color: #000;
+}
+
+.row{
+    background-color: #fff;
+}
+
+.vend_row{
+    background-color: rgb(60, 93, 161);
+}
+
+.vend_title{
+    color: rgb(43, 71, 127);
+    text-shadow: #000 8px;
+}
+
+.col-md-2{
+    height: 200px;
+    
+}
+
+.upper_div{
+    height: 170px;    
+    align-content: center;
+
+}
+
+.middle_div{
+    display: flex;
+    height: 140px;
+    width: 85%;
+    background-color: rgb(245, 245, 245);
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.lower_div{
+    height: 30px;
+    justify-content: start;
+    align-content: center;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+img{
+    height: 130px;
+}
+
+label{
+    color: rgb(90, 90, 90);
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width: 770px){    
+    .middle_div{
+        width: 50%;
+    }
+    
+    label{
+        display: flex;
+        justify-self: center;
+    }
+}

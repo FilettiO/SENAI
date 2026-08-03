@@ -22,7 +22,7 @@ label{
     margin-bottom: 5px;    
 }
 
-input{
+input, textarea{
     background-color: rgb(216, 216, 216);
     border: solid 1px rgb(216, 216, 216);
     border-radius: 8px;
@@ -36,8 +36,7 @@ input{
 }
 
 .inp2{
-    padding: 50px;
-   
+    height: 150px;   
 }
 
 .btn{
