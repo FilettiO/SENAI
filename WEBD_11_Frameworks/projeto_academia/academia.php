@@ -26,7 +26,7 @@
         <div class="container mt-5 fs-5">
             <p>Fundada em 14 de fevereiro de 2001, a Academia Alta Forma começou quando João, Cláudio e Arthur, três amigos apaixonados por saúde e esporte, abriram uma pequena academia de bairro no interior de sua cidade, Jaguariúna</p>
             <p>Com o objetivo de promover os exercícios físicos e se tornar um exemplo na cidade, os três começaram com poucos equipamentos e, com dedicação e atenção aos alunos evoluíram até terem um nome renomado na área.</p>
-            <p>Atualmente, a <a>Academia Alta Forma</a> é sinônimo de <a>transformação</a>, <a>disciplina</a> e <a>superação</a>. Com mais de 20 profissionais qualificados, temos a garantia de um desenvolvimento pessoal excelente com base em treinos cientificamente formulados. Temos um compromisso com a transparência e fidelidade, assegurando o melhor para nossos alunos enquanto visamos a melhora geral das condições físicas.</p>
+            <p>Atualmente, a <span>Academia Alta Forma</span> é sinônimo de <span>transformação</span>, <span>disciplina</span> e <span>superação</span>. Com mais de 20 profissionais qualificados, temos a garantia de um desenvolvimento pessoal excelente com base em treinos cientificamente formulados. Temos um compromisso com a transparência e fidelidade, assegurando o melhor para nossos alunos enquanto visamos a melhora geral das condições físicas.</p>
             <div class="donos">
                 <div class="row fw-medium">
                     <div class="col-md-4 text-center donos_box">
