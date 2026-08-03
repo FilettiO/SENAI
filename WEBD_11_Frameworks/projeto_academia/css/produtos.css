@@ -21,7 +21,7 @@ h4{
     color: #000;
 }
 
-.row{
+.prod_row{
     background-color: #fff;
 }
 
@@ -63,7 +63,7 @@ h4{
     overflow: hidden;
 }
 
-img{
+.img_prod{
     height: 130px;
 }
 

@@ -17,7 +17,7 @@
     <?php include("includes/header.php");?>
     
 <!-- BANNER -->
-    <div class="container-fluid bg-black text-light pt-5">
+    <div class="container-fluid bg-black text-light pt-3">
         <img src="images/banner2.png" class="banner img-fluid mx-auto d-block text-light" alt="Nossa Academia"/>
     </div>
 
@@ -30,15 +30,15 @@
             <div class="donos">
                 <div class="row fw-medium">
                     <div class="col-md-4 text-center donos_box">
-                        <img src="images/joao.png" class="w-100 object-fit-cover" alt="João Miguel Costa"/>
+                        <img src="images/joao.png" class="w-100 object-fit-cover img_cover" alt="João Miguel Costa"/>
                         <span>João Miguel Costa</span>
                     </div>
                     <div class="col-md-4 text-center donos_box">
-                        <img src="images/claudio.png" class="w-100 object-fit-cover" alt="Cláudio Reis Moura"/>
+                        <img src="images/claudio.png" class="w-100 object-fit-cover img_cover" alt="Cláudio Reis Moura"/>
                         <span>Cláudio Reis Moura</span>
                     </div>
                     <div class="col-md-4 text-center donos_box">
-                        <img src="images/arthur.png" class="w-100 object-fit-cover" alt="Arthur Chiavegatto"/>                        
+                        <img src="images/arthur.png" class="w-100 object-fit-cover img_cover" alt="Arthur Chiavegatto"/>                        
                         <span>Arthur Chiavegatto</span>                                              
                     </div>
                 </div>
@@ -101,6 +101,7 @@
         </div>
     </section>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <?php include("includes/footer.php");?>
 </body>
 </html>

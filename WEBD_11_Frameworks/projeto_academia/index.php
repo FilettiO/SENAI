@@ -15,41 +15,6 @@
 <body>
     <?php include("includes/header.php");?>
 
-<!-- MENU -->
-    <header>
-        <nav class="navbar navbar-expand-lg bg-black navbar-dark pb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand ms-5">
-                    <img src="images/logo.png" alt="Logo" width="90" height="80" class="d-inline-block align-text-top"/>
-                </a>
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav me-5">
-                            <li class="nav-item">
-                                <a class="nav-link active fw-semibold m-4" aria-current="page">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active fw-semibold m-4">NOSSA ACADEMIA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link active fw-semibold m-4">NOSSOS SERVIÇOS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active fw-semibold m-4">NOSSOS PRODUTOS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active fw-semibold m-4">FALE CONOSCO</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header> 
-
 <!-- BANNER -->
     <div class="container-fluid bg-black text-light pt-5">
         <img src="images/banner1.png" class="img-fluid mx-auto d-block text-light" alt="Continue treinando"/>
@@ -178,76 +143,8 @@
         </div>        
     </div>
 
-<!-- RODAPÉ -->
-    <footer class="pb-5 footer">
-        <div class="container-lg">
-            <div class="row text-light">
-                <div class="col-md-3 mt-5">
-                    <div class="col-md">
-                        <div class=" d-flex justify-content-center">
-                            <img  src="images/logo.png" class="img-fluid mb-4 logo" alt="Logo"/>
-                        </div>        
-                        <div class="size mb-4">
-                            <p class="fw-light m-0 d-flex justify-content-center">Desde 2001 treinando</p>
-                            <p class="fw-light d-flex justify-content-center">corpos e mentes</p>
-                        </div>
-                        <div class="row justify-content-evenly w-75 redes">
-                            <p class="fw-semibold d-flex justify-content-center">Nossas Redes</p>
-                            <div class="d-flex align-items-center gap-3">
-                                <div class="d-block">
-                                    <img src="images/facebook.png" class="img-fluid" alt="Facebook"/>
-                                </div>
-                                <div class="d-block">
-                                    <img src="images/instagram.png" class="img-fluid" alt="Instagram"/>
-                                </div>
-                                <div class="d-block">
-                                    <img src="images/twitter.png" class="img-fluid" alt="Twitter"/>
-                                </div>
-                                <div class="d-block">
-                                    <img src="images/whatsapp.png" class="img-fluid" alt="WhatsApp"/>
-                                </div>
-                            </div>
-                        </div>        
-                    </div>                    
-                </div>            
-                <div class="col-md-3 mt-5 ref">
-                    <div class="w-25">
-                        <p class="border-bottom border-3">Menu</p> 
-                    </div>
-                    <a href="">Início</a>
-                    <a href="">Nossa Academia</a>
-                    <a href="">Nossos Serviços</a>
-                    <a href="">Nossos Produtos</a>
-                    <a href="">Marcas Parceiras</a>
-                    <a href="">Fale Conosco</a>
-                </div>            
-                <div class="col-md-3 mt-5"> 
-                    <div class="w-25">
-                        <p class="border-bottom border-3">Mapa</p> 
-                    </div>
-                    <p class="fw-medium m-0">Sede</p>
-                    <a>Rua 123, Bairro Cabral, 13058-192</a>
-                    <a>Jaguariúna, São Paulo</a>
-                        <img src="images/map.png" class="img-fluid mt-4" alt="Endereço no mapa"/>
-                </div>
-                <div class="col-md-3 mt-5">
-                    <div class="w-75">
-                        <p class="border-bottom border-3">Horário de Funcionamento</p> 
-                    </div>
-                    <div>
-                        <p class="fw-semibold m-0">Segunda a Sexta</p>
-                        <p>05:00 - 23:00</p>
-                        <p class="fw-semibold m-0">Sábado</p>
-                        <p>06:00 - 15:00</p>
-                        <p class="fw-semibold m-0">Domingo</p>
-                        <p>06:00 - 12:00</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <?php include("includes/footer.php");?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <?php include("includes/footer.php");?>    
 </body>
 </html>

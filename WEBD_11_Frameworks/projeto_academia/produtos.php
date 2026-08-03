@@ -18,7 +18,7 @@
     <?php include("includes/header.php");?>
 
 <!-- BANNER -->
-    <div class="container-fluid bann">
+    <div class="container-fluid bann pt-3">
         <img src="images/banner5.png" class="banner img-fluid mx-auto w-100" alt="Nossos Produtos"/>
     </div>
 
@@ -28,11 +28,11 @@
             <div>
                 <h4 class="d-block ms-5 vend_title">MAIS VENDIDOS</h4>
             </div>        
-            <div class="row vend_row">
+            <div class="row vend_row prod_row">
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/whey_baunilha.png"/>
+                            <img src="images/whey_baunilha.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -42,7 +42,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/nadador.png"/>
+                            <img src="images/nadador.png" class="img_prod" />
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -52,7 +52,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/creatina_ribose.png"/>
+                            <img src="images/creatina_ribose.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -62,7 +62,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/bermuda.png"/>
+                            <img src="images/bermuda.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -72,7 +72,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/supl_core.png"/>
+                            <img src="images/supl_core.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -82,7 +82,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/supl_bulk.png"/>
+                            <img src="images/supl_bulk.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -99,11 +99,11 @@
             <div>
                 <h4 class="d-block ms-5">WHEY PROTEIN</h4>
             </div>        
-            <div class="row">
+            <div class="row prod_row">
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/whey_morango.png"/>
+                            <img src="images/whey_morango.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -113,7 +113,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/whey_mb_protein.png"/>
+                            <img src="images/whey_mb_protein.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -123,7 +123,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/whey_chocolate.png"/>
+                            <img src="images/whey_chocolate.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -133,7 +133,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/whey_isolate.png"/>
+                            <img src="images/whey_isolate.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -143,7 +143,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/whey_baunilha.png"/>
+                            <img src="images/whey_baunilha.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -153,7 +153,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/whey_trufa.png"/>
+                            <img src="images/whey_trufa.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -170,11 +170,11 @@
             <div>
                 <h4 class="d-block ms-5">CREATINA</h4>
             </div>        
-            <div class="row">
+            <div class="row prod_row">
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/creatina_ribose.png"/>
+                            <img src="images/creatina_ribose.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -184,7 +184,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/creatina_monohidratada.png"/>
+                            <img src="images/creatina_monohidratada.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -194,7 +194,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/creatina_hardcore.png"/>
+                            <img src="images/creatina_hardcore.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -204,7 +204,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/creatina_titanium.png"/>
+                            <img src="images/creatina_titanium.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -214,7 +214,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/creatina_probiotica.png"/>
+                            <img src="images/creatina_probiotica.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -224,7 +224,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/creatina_darkness.png"/>
+                            <img src="images/creatina_darkness.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -241,11 +241,11 @@
             <div>
                 <h4 class="d-block ms-5">PRÉ-TREINO</h4>
             </div>        
-            <div class="row">
+            <div class="row prod_row">
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/supl_bulk.png"/>
+                            <img src="images/supl_bulk.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -255,7 +255,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/supl_acai.png"/>
+                            <img src="images/supl_acai.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -265,7 +265,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/supl_evora.png"/>
+                            <img src="images/supl_evora.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -275,7 +275,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/supl_diabo.png"/>
+                            <img src="images/supl_diabo.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -285,7 +285,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/supl_c4.png"/>
+                            <img src="images/supl_c4.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -295,7 +295,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/supl_core.png"/>
+                            <img src="images/supl_core.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -312,11 +312,11 @@
             <div>
                 <h4 class="d-block ms-5">MODA FITNESS</h4>
             </div>        
-            <div class="row">
+            <div class="row prod_row">
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/blusa.png"/>
+                            <img src="images/blusa.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -326,7 +326,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/nadador.png"/>
+                            <img src="images/nadador.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -336,7 +336,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/bermuda.png"/>
+                            <img src="images/bermuda.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -346,7 +346,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/cropped.png"/>
+                            <img src="images/cropped.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -356,7 +356,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/conjunto.png"/>
+                            <img src="images/conjunto.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -366,7 +366,7 @@
                 <div class="col-md-2">
                     <div class="upper_div">
                         <div class="middle_div">
-                            <img src="images/garrafinha.png"/>
+                            <img src="images/garrafinha.png" class="img_prod"/>
                         </div>                    
                     </div>
                     <div class="lower_div">
@@ -377,6 +377,7 @@
         </div>
     </section>
 
+    <script src="js/main.js"></script>
     <?php include("includes/footer.php");?>
 </body>
 </html>

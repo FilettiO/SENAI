@@ -11,11 +11,11 @@ body{
     margin-bottom: 110px;
 }
 
-ul{
+.lista{
     flex-direction: column;
 }
 
-ul li{
+.lista_el{
     margin: 40px;
 }
 

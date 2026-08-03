@@ -33,12 +33,12 @@
                 <div class="w-25">
                     <p class="border-bottom border-3">Menu</p> 
                 </div>
-                <a href="">Início</a>
-                <a href="../academia.php">Nossa Academia</a>
-                <a href="../servicos.php">Nossos Serviços</a>
-                <a href="">Nossos Produtos</a>
-                <a href="">Marcas Parceiras</a>
-                <a href="../contato.php">Fale Conosco</a>
+                <a href="index.php">Início</a>
+                <a href="academia.php">Nossa Academia</a>
+                <a href="servicos.php">Nossos Serviços</a>
+                <a href="produtos.php">Nossos Produtos</a>
+                <a href="index.php">Marcas Parceiras</a>
+                <a href="contato.php">Fale Conosco</a>
             </div>            
             <div class="col-md-3 mt-5"> 
                 <div class="w-25">

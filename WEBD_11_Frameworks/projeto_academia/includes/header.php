@@ -11,19 +11,19 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav me-5">
                         <li class="nav-item">
-                            <a href="../index.php" class="nav-link active fw-semibold m-4" aria-current="page">HOME</a>
+                            <a href="index.php" class="nav-link active fw-semibold m-4" aria-current="page">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../academia.php" class="nav-link active fw-semibold m-4">NOSSA ACADEMIA</a>
+                            <a href="academia.php" class="nav-link active fw-semibold m-4">NOSSA ACADEMIA</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../servicos.php" class="nav-link active fw-semibold m-4">NOSSOS SERVIÇOS</a>
+                            <a href="servicos.php" class="nav-link active fw-semibold m-4">NOSSOS SERVIÇOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fw-semibold m-4">NOSSOS PRODUTOS</a>
+                            <a href="produtos.php" class="nav-link active fw-semibold m-4">NOSSOS PRODUTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../contato.php" class="nav-link active fw-semibold m-4">FALE CONOSCO</a>
+                            <a href="contato.php" class="nav-link active fw-semibold m-4">FALE CONOSCO</a>
                         </li>
                     </ul>
                 </div>

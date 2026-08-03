@@ -18,7 +18,7 @@
     <?php include("includes/header.php");?>
     
 <!-- BANNER -->
-    <div class="container-fluid bg-black text-light pt-5">
+    <div class="container-fluid bg-black text-light pt-3">
         <img src="images/banner3.png" class="img-fluid mx-auto d-block text-light" alt="Nossa Academia"/>
     </div>
 
@@ -31,11 +31,11 @@
                     <img src="images/s1_musculacao.png" class="img-fluid rounded" alt="Homem malhando o braço" />
                 </div>
                 <div class="col-md-7 d-flex justify-content-center align-items-center">
-                    <ul class="fs-3">
-                        <li>Treine em nossa academia a qualquer momento;</li>
-                        <li>Treinos personalizados;</li>
-                        <li>Planos de acordo com sua disponibilidade;</li>
-                        <li>Personal trainer.</li>
+                    <ul class="fs-3 lista">
+                        <li class="lista_el">Treine em nossa academia a qualquer momento;</li>
+                        <li class="lista_el">Treinos personalizados;</li>
+                        <li class="lista_el">Planos de acordo com sua disponibilidade;</li>
+                        <li class="lista_el">Personal trainer.</li>
                     </ul>
                     <div class="pb-5">
                         <button class="fs-5 fw-semibold rounded btnn impar">Quero começar!</button>
@@ -52,10 +52,10 @@
             <div class="fs-1 fw-bold fst-italic text-center mt-5 pt-4 pb-3">Pilates</div>
             <div class="row par_box">
                 <div class="col-md-7 d-flex justify-content-center align-items-center">
-                    <ul class="fs-3">
-                        <li>Aulas com profissionais qualificados;</li>
-                        <li>Ritmo que se adequa à sua rotina;</li>
-                        <li>Aulas em grupos ou duplas.</li>                        
+                    <ul class="fs-3 lista">
+                        <li class="lista_el">Aulas com profissionais qualificados;</li>
+                        <li class="lista_el">Ritmo que se adequa à sua rotina;</li>
+                        <li class="lista_el">Aulas em grupos ou duplas.</li>                        
                     </ul>
                     <div class="pb-5">
                         <button class="fs-5 fw-semibold mt-2 rounded btnn par">Quero me inscrever!</button>
@@ -78,10 +78,10 @@
                     <img src="images/s3_zumba.png" class="img-fluid rounded" alt="Grupo dançando zumba" />
                 </div>
                 <div class="col-md-7 d-flex justify-content-center align-items-center">
-                    <ul class="fs-3">
-                        <li>Aulas para todas as idades;</li>
-                        <li>Aulas com nível de intensidade;</li>
-                        <li>Frequência de 2 a 4 vezes na semana.</li>                        
+                    <ul class="fs-3 lista">
+                        <li class="lista_el">Aulas para todas as idades;</li>
+                        <li class="lista_el">Aulas com nível de intensidade;</li>
+                        <li class="lista_el">Frequência de 2 a 4 vezes na semana.</li>                        
                     </ul>
                     <div class="pb-5">
                         <button class="fs-5 fw-semibold mt-2 rounded btnn impar">Quero me inscrever!</button>
@@ -98,11 +98,11 @@
             <div class="fs-1 fw-bold fst-italic text-center mt-5 pt-4 pb-3">Crossfit</div>
             <div class="row par_box">
                 <div class="col-md-7 d-flex justify-content-center align-items-center">
-                    <ul class="fs-3">
-                        <li>Exercícios dinâmicos e funcionais;</li>
-                        <li>Treinos de acordo com a intensidade;</li>
-                        <li>Aulas seguras acompanhadas por professores;</li> 
-                        <li>Área exclusiva.</li>                       
+                    <ul class="fs-3 lista">
+                        <li class="lista_el">Exercícios dinâmicos e funcionais;</li>
+                        <li class="lista_el">Treinos de acordo com a intensidade;</li>
+                        <li class="lista_el">Aulas seguras acompanhadas por professores;</li> 
+                        <li class="lista_el">Área exclusiva.</li>                       
                     </ul>
                     <div class="pb-5">
                         <button class="fs-5 fw-semibold mt-2 rounded btnn par">Quero me inscrever!</button>
@@ -116,6 +116,7 @@
         </div>
     </section>
 
+    <script src="js/main.js"></script>
     <?php include("includes/footer.php");?>
 </body>
 </html>
