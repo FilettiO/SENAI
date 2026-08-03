@@ -13,6 +13,8 @@
     <title>Bem-Vindo à Alta Forma!</title>
 </head>
 <body>
+    <?php include("includes/header.php");?>
+
 <!-- MENU -->
     <header>
         <nav class="navbar navbar-expand-lg bg-black navbar-dark pb-3">
@@ -104,26 +106,52 @@
                 <img src="images/s2_crossfit.png" class="img-fluid img2" alt="Pessoas fazendo crossfit"/>
             </div>
         </div>
-        <div class="row mt-2">
-            <div class="col-md-8">
+        <div class="row mt-2 div_esp">
+            <div class="col-md-8 esp_col">
                 <div class="esp text-light ms-3 h-100">
-                    <div class="row">
+                    <div class="row h-100">
                         <div class="col-md-2 d-flex justify-content-center align-items-start">
                             <img src="images/logo.png" alt="Academia Alta Forma" class="img fluid esp_img mt-4">
                         </div>
-                        <div class="col-md-10">
-                            <span class="fw-medium">Treino personalizado</span>
-                            <p class="position-absolute">------------</p>
-                            <p class="position-relative">aaaaa</p>
-                            <p class="fw-medium">Acompanhamento nutricional</p>
-                            <p>s</p>
-                            <p class="fw-medium">Exercícios fisioterápicos</p>
-                            <p>s</p>
+                        <div class="col-md-10 align-self-center">
+                            <div class="row esp_row g-3">
+                                <div class="col-md">
+                                    <h5 class="esp_title">Treino personalizado</h5>
+                                    <div class="barra">
+                                        <div class="progresso1"></div>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <span class="percentual">85%</span>
+                                </div>
+                            </div>
+                            <div class="row esp_row g-3">
+                                <div class="col-md">
+                                    <h5 class="esp_title">Acompanhamento nutricional</h5>
+                                    <div class="barra">
+                                        <div class="progresso2"></div>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <span class="percentual">30%</span>
+                                </div>
+                            </div>
+                            <div class="row esp_row g-3">        
+                                <div class="col-md">
+                                    <h5 class="esp_title">Exercícios fisioterápicos</h5>
+                                    <div class="barra">
+                                        <div class="progresso3"></div>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <span class="percentual">70%</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 img3_box">
+            <div class="col-lg-4 img3_box">
                 <img src="images/s2_pilates.jpg" class="img-fluid img3" alt="Pessoas fazendo pilates"/>
             </div>
         </div>
@@ -219,6 +247,7 @@
         </div>
     </footer>
 
+    <?php include("includes/footer.php");?>
     <script src="js/main.js"></script>
 </body>
 </html>

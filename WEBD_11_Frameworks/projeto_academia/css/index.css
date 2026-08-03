@@ -38,16 +38,66 @@
 }
 
 .esp{
-    background-color: rgba(38, 47, 66, 1) ;
+    background-color: rgba(38, 47, 66, 1);    
 }
 
 .esp_img{
     width: 40%;
 }
 
+.esp_row{
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.esp_row:last-of-type{
+    margin-bottom: 0;
+}
+
+.esp_title{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.percentual{
+    color: rgb(205 50 50);
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+.barra{
+    width:100%;
+    height: 5px;
+    background: rgb(123 126 128);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progresso1, .progresso2, .progresso3{
+    height: 100%;
+    background-color: rgb(205 50 50);
+    border-radius: 20px;
+}
+
+.progresso1{
+    width: 85%;
+}
+
+.progresso2{
+    width: 30%;
+}
+
+.progresso3{
+    width: 70%;
+}
+
 .div-marcas{
     height: 10px;
-    background-color: rgba(5, 36, 100, 1) ;
+    background-color: rgba(5, 36, 100, 1);
 }
 
 .logos {
@@ -86,6 +136,12 @@
     margin-bottom: 12px;
 }
 
+@media (max-width: 1200px){
+    .esp_title, .percentual{
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 995px){    
     .img1{
         height: 70%;            
@@ -102,15 +158,43 @@
     }
 }
 
-@media (max-width: 770px){    
-    .img1, .img3{
-        height: 83%;            
+@media (max-width: 991px){
+    .div_esp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .esp_col{
+        width: 80%;
     }
 
     .img3_box{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 71%;
+        margin-top: 35px;
+        
+    }    
+}
+
+@media (max-width: 770px){    
+    .img1, .img3{
+        height: 83%;            
+    }
+
+    .barra{
+        width: 90%;
+        justify-self: center;
+    }
+
+    .percentual{
+        padding-left: 10px;
+    }
+
+    .img3_box{
+        width: 85%;
     }
 
     h2{
